@@ -1,0 +1,310 @@
+body {
+    overflow-x: hidden;
+    overflow: auto;
+}
+
+.title{
+    transition: 0.25s ease-in;
+    font-family: 'Blackout Midnight';
+}
+
+.title:hover{
+    margin-left: 20px;
+    font-family: 'Blackout Sunrise';
+}
+.link {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.25s ease-in-out;
+}
+
+.link:hover {
+    color: rgb(144, 155, 207);
+}
+
+.no-cursor {
+    cursor: default;
+}
+
+.zoom-hov {
+    scale: 1;
+    transition: 0.3s ease-in-out;
+}
+
+.zoom-hov:hover {
+    scale: 1.05;
+}
+
+.table-time{
+    background-color: white;
+}
+
+.hbtn {
+    position: relative;
+    box-sizing: border-box;
+    display: inline-block;
+    overflow: hidden;
+    padding: 8px 20px;
+    margin: 0px 3px 6px;
+    text-align: center;
+    border: 3px solid rgb(255, 235, 14);
+    text-decoration: none;
+    background-color: transparent;
+    color: rgb(255, 235, 14);
+    white-space: nowrap;
+    z-index: 0;
+} 
+
+
+.hbtn i {
+    padding-right: 8px;
+} 
+
+
+.hb-fill-right::before {
+    position: absolute;
+    content: "";
+    background: rgb(255, 235, 14);
+    transition-duration: 0.3s;
+    z-index: -1;
+    inset: 0px auto auto 0px;
+    width: 0px;
+    height: 100%;
+    opacity: 1;
+} 
+
+
+.hb-fill-right:hover::before {
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+} 
+
+
+.hb-fill-right:hover {
+    color: rgb(44, 0, 141);
+    background: rgb(255, 255, 255);
+    transition: color 0.65s ease 0s, background 0s ease 0.65s;
+} 
+
+.hbtn {
+    position: relative;
+    box-sizing: border-box;
+    display: inline-block;
+    overflow: hidden;
+    padding: 8px 20px;
+    margin: 0px 3px 6px;
+    text-align: center;
+    border: 2px solid rgb(255, 255, 255);
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    white-space: nowrap;
+    z-index: 0;
+} 
+
+
+.hbtn i {
+    padding-right: 8px;
+} 
+
+
+.hb-fill-right-br::before {
+    position: absolute;
+    content: "";
+    background: rgb(117, 55, 55);
+    transition-duration: 0.3s;
+    z-index: -1;
+    inset: 0px auto auto 0px;
+    width: 0px;
+    height: 100%;
+    opacity: 1;
+    border: 2px solid rgb(0, 42, 255);
+} 
+
+
+.hb-fill-right-br:hover::before {
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+} 
+
+
+.hb-fill-right-br:hover {
+    color: rgb(0, 0, 0);
+    background: rgb(255, 235, 14);
+    transition: color 0.3s ease 0s, background 0s ease 0.3s;
+} 
+
+.modal-img {
+    scale: 1,1,1;
+    box-shadow: 0;
+    transition: 0.2s;
+}
+
+.modal-img:hover {
+    scale: 1.025;
+    box-shadow: 3px 3px 30px rgba(0,0,0,0.25);
+    transition: 0.5s;
+}
+
+.hbtn2 {
+    position: relative;
+    box-sizing: border-box;
+    display: inline-block;
+    overflow: hidden;
+    padding: 8px 20px;
+    margin: 0px 3px 6px;
+    text-align: center;
+    border: 3px solid rgb(50, 48, 23);
+    text-decoration: none;
+    background-color: transparent;
+    color: rgb(255, 235, 14);
+    white-space: nowrap;
+    z-index: 0;
+} 
+
+
+.hbtn2 i {
+    padding-right: 8px;
+} 
+
+
+.hb-fill-right2::before {
+    position: absolute;
+    content: "";
+    background: rgb(255, 255, 242);
+    transition-duration: 0.3s;
+    z-index: -1;
+    inset: 0px auto auto 0px;
+    width: 0px;
+    height: 100%;
+    opacity: 1;
+} 
+
+
+.hb-fill-right2:hover::before {
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+} 
+
+
+.hb-fill-right2:hover {
+    color: rgb(44, 0, 141);
+    background: rgb(255, 255, 255);
+    transition: color 0.65s ease 0s, background 0s ease 0.65s;
+} 
+
+
+.appear {
+    opacity: 0.05;
+    transition: 2.2s;
+    cursor: default;
+}
+
+.appear:hover {
+    opacity: 0.95;
+    transition: 0.2s ease-in-out;
+    cursor: default;
+}
+
+#intro {
+    /* width: 98.5%;
+    height: 20em;
+    margin: 0.75%;
+    padding: 3%; */ 
+    margin: 12px;
+    font-family: 'Blackout Sunrise';
+    border: 0px solid red;
+    border-radius: 6px;
+    background-color: rgb(255, 255, 242);
+    color: black;
+}
+
+#part1 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./img/bg5.jpg");
+}
+
+#wsp {
+    text-indent: 3;
+}
+
+#body{
+    background-color: rgb(36, 31, 32);
+    background-image: url("./img/bg3.jpg");
+}
+
+#pasfoto {
+    background-image: url("./img/3x4.jpg");
+}
+
+#info-c{
+    background-image: url("./img/point.png");
+    overflow: hidden;
+}
+
+#logo {
+    opacity: 1;
+    transition: 0.3s ease-out;
+}
+
+#logo:hover {
+    opacity: 0.8;
+    
+}
+
+#port-bd {
+    background-image: url("./img/bg3.jpg");
+    color: white;
+}
+
+#port-bg{
+    background-image: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#upcoming {
+    scale: 1;
+    transition: 0.3s ease-in-out;
+}
+
+#upcoming:hover {
+    margin-left: 20px;
+}
+
+#part2 {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 600px;
+    background-image: url("./img/paint5.jpg");
+}
+
+#part3 {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./img/pexels-pixabay-531321.jpg");
+    text-align: center;
+}
+
+#part3 {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./img/pexels-pixabay-531321.jpg");
+    text-align: center;
+}
+
+#buffer {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./img/bg1.jpg");
+    text-align: center;
+}
+
