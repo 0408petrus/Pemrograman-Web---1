@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--Eksternal Css-->
+        <link href="Navbar.css"rel="stylesheet" type="text/css">
+    
+        <!--Favicon-->
+        <link rel="icon" type="image/x-icon" href="99f70fe7d427e6c6cf994260ff04f24b.jpg">
+    
+        <!--Eksternal Css dari bootstrap-->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Website Wildan</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        
+        <!--Internal Css-->
+        <style>
+            hr{
+                border: none;
+                height: 5px;
+                color: #333;
+                background-color: #333; 
+                opacity: 100%;
+            }
+            body{
+                background-color: bisque;
+            }
+        </style>
+    </head>
+
+    <body>
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-lg sticky-top" style="background-color: #ff5757;">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Navbar</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="Home.html">Home</a>
+                        <a class="nav-link" href="Konten.html">Content</a>
+                        <a class="nav-link" href="Portofolio.html">Portofolio</a>
+                        <a class="nav-link disabled">Disabled</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!--Navbar-->
+
+        <!--Table-->
+        <div class="tabel">
+            <h1>Jadwal Mata Kuliah</h1>
+            <hr>
+            <table class="table table-striped table-dark">
+                <thead>
+                    <tr>
+                        <th scope="col">No</th>
+                        <th scope="col">Waktu</th>
+                        <th scope="col">Senin</th>
+                        <th scope="col">Selasa</th>
+                        <th scope="col">Rabu</th>
+                        <th scope="col">Kamis</th>
+                        <th scope="col">Jumat</th>
+                        <th scope="col">Sabtu</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Pagi</td>
+                        <td>Pemograman Web</td>
+                        <td>-</td>
+                        <td>Komputasi Numerik</td>
+                        <td>Kewirausahaan Digital</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Siang</td>
+                        <td>Lab.Basis Data</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                    
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>Sore</td>
+                        <td>Basis Data</td>
+                        <td>Lab.Pemograman Web</td>
+                        <td>Desain dan Analisis Algolritma</td>
+                        <td>Lab.Desan dan Analisis Algoritma</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                </tbody>
+            </table>
+            <center>
+                <a href="#video" class="btn btn-outline-danger" role="button" aria-pressed="true">Video</a>
+            </center>
+        </div>
+        <!--Table-->
+
+        <!--Vide0-->
+        <div class="video" id="video">
+            <h1>Video</h1>
+            <hr>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/kPRA0W1kECg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="col-sm">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/fWubJgIWyxQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>   
+        </div>   
+
+        <!--Script Bootsrap-->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+    </body>
+</html>
