@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tidak Suka Tugas</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <script>
+         $(document).ready(function(){
+            $("p").on({
+                mouseenter: function(){
+                    $(this).css("background-color","lightblue");
+                },
+                mouseleave: function(){
+                    $(this).css("background-color","pink");
+            },
+            click: function(){
+                $(this).css("background-color","pink");
+            },
+            });
+        });
+    </script>
+
+    <script>
+        $(document).ready(function(){
+            $("#hide").click(function(){
+                $("p").hide();
+            });
+            $("#show").click(function(){
+                $("p").show();
+            });
+            $("#fadein").click(function(){
+                $("p").fadeIn(500);
+            });
+            $("#fadeout").click(function(){
+                $("p").fadeOut(500);
+            });
+            $("#slideup").click(function(){
+                $("p").slideUp();
+            });
+            $("#slidedown").click(function(){
+                $("p").slideDown();
+            });
+            $("div").mouseenter(function(){
+                $("div").animate({width:'toggle'});
+            });
+            $("div").mouseleave(function(){
+                $("div").animate({width:'toggle'});
+            });
+            $("#second").mouseleave(function(){
+                $("div").animate({width:'toggle'});
+            });
+            $("#second").mouseleave(function(){
+                $("#div").animate({width:'toggle'});
+            });
+        });
+    </script>
+
+    <p>Saya Tidak Suku Tugas, Proyek, dan UTS! ARGGGG!</p>
+    <button id="hide">Hide Text</button>
+    <button id="show">Show Text</button>
+    <button id="fadeout">Fade Out Text</button>
+    <button id="fadein">Fade In Text</button>
+   
+    <div>
+        <img src="/javasricpt/arghhh.jpg">
+    </div>
+   
+    <p>Tapi Saya Suka Uang, Makan, dan Segala yang Rupawan</p>
+    <button id="slideup">Slide up Text</button>
+    <button id="slidedown">Slide down Text</button>
+    <div id="second" style="align-items:center;">
+        <img src="/javasricpt/jk.jpg">
+    </div>
+    
+</body>
+
+</body>
+</html>
