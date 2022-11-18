@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jquery</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <style>
+        img{
+            margin-top: 7px;
+        }
+        p{
+            font-size: large;
+        }
+    </style>
+</head>
+
+<body>
+    <!--Jquery Event-->
+    <script>
+        $(document).ready(function(){
+            $("p").on({
+                mouseenter: function(){
+                    $(this).css("background-color","red");
+                },
+                mouseleave: function(){
+                    $(this).css("background-color","grey");
+                },
+                click: function(){
+                    $(this).css("background-color","yellow");
+                },
+            });
+        });
+    </script>
+    <!---------------->
+
+
+    <!--Jquery Effect-->
+    <script>
+        $(document).ready(function (){
+            $("#hide").click(function (){
+                $("p").hide();
+            });
+            $("#show").click(function (){
+                $("p").show();
+            });
+            $("#fadeout").click(function (){
+                $("p").fadeOut("slow");
+            });
+            $("#fadein").click(function (){
+                $("p").fadeIn("slow");
+            });
+            $("#slideup").click(function (){
+                $("p").slideUp();
+            });
+            $("#slidedown").click(function (){
+                $("p").slideDown();
+            });
+            $("#animasi1").mouseenter(function(){
+                $(".foto1").animate({height:'toggle'},500);
+            });
+            $("#animasi1").mouseleave(function(){
+                $(".foto1").animate({height:'toggle'},500);
+            });
+            $("#animasi2").mouseenter(function(){
+                $(".foto2").animate({width:'toggle'},250);
+            });
+            $("#animasi2").mouseleave(function(){
+                $(".foto2").animate({width:'toggle'},250);
+            });
+        });
+    </script>
+    <!----------------->
+
+    <p>Saitama adalah karakter terkuat di anime, fix no debat.</p>
+    <button id="hide">Sembunyikan tulisan</button>
+    <button id="show">Tampilkan tulisan</button>
+    <button id="fadeout">Memudarkan tulisan keluar</button>
+    <button id="fadein">Memudarkan tulisan masuk</button>
+    <button id="animasi1">animasi 1</button>
+
+    <div class="foto1">
+        <img src="Image/saitama.jpg" width="200px">
+    </div>
+
+    <p>Dan goku kalah melawan saitama, fix no debat juga.</p>
+    <button id="slideup">Menyembunyikan teks ke atas</button>
+    <button id="slidedown">Menampilkan teks ke bawah</button>
+    
+    <button id="animasi2">animasi 2</button>
+
+    <div class="foto2">
+        <img src="Image/Gokucupu.jpeg" width="200px">
+    </div>
+
+    
+    
+</body>
+</html>
