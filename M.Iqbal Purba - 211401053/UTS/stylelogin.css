@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Aleo&family=Alice&family=Amiri:ital@1&family=Arima+Madurai&family=Audiowide&family=Bree+Serif&family=Coustard&family=EB+Garamond:wght@600&family=El+Messiri:wght@400;500&family=Lobster+Two&family=Merienda:wght@700&family=PT+Serif&family=Pacifico&family=Philosopher:wght@400;700&family=Poppins&family=Righteous&family=Source+Serif+Pro&family=ZCOOL+XiaoWei&family=Zilla+Slab:wght@500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eee;
+
+}
+
+form {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid rgb(241, 241, 241);
+    padding: 50px 50px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 7px 7px rgb(197, 199, 197);
+    font-family: 'El Messiri', sans-serif;
+    font-size: 20px;
+    
+}
+#logo  {
+    flex-direction: column;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid;
+    margin-bottom: 40px;
+}
+
+input {
+    width: 400px;
+    box-sizing: border-box;
+    border: 1px solid #000;
+    border-color: rgba(0, 0, 0, 0.301);
+    background-color: rgba(13, 15, 15, 0.058);
+    padding: 13px 13px;
+    border-radius: 5px;
+    margin : 8px 0;
+    font-family: 'El Messiri', sans-serif;
+    font-weight: 550;
+}
+
+
+.password {
+    padding-top: 30px;
+}
+
+.buttonLogin {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.buttonLogin button {
+    border: none;
+    background-color:#83b6a3 ;
+    padding: 15px 30px;
+    border-radius: 5px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+
+.buttonLogin button:hover {
+    background-color: #487b68;
+    cursor: pointer;
+}
+
+.register {
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+
