@@ -1,15 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&family=Montserrat:ital,wght@0,200;1,200&family=Noto+Sans+SC&family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;1,200&family=Noto+Serif+Khojki&family=Roboto+Mono&family=Yeseva+One&display=swap');
 
 body {
   background-color: black;
   margin: auto;
   padding: auto;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Noto Serif Khojki', serif;
   color: white;
 }
 
 h1{
-  font-family: 'Roboto Mono', monospace;  
+  font-family: 'Yeseva One', cursive;
   font-size: 175px;
 }
 
