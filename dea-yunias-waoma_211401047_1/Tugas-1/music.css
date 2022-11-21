@@ -1,0 +1,41 @@
+body {
+    font-family: 'poppins', sans-serif;
+    background-color: #041C32;
+}
+
+.navbar-brand {
+    font-family: 'Nunito', sans-serif;
+}
+
+.nav-link {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.carousel-item {
+    height: 100vh;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+
+.card {
+    border: none;
+    border-radius: 50px;
+}
+
+.card img {
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+#tes {
+    border-radius: 0;
+    background-color: #133B5C;
+}
+
+.card-header {
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+    border: none;
+}
