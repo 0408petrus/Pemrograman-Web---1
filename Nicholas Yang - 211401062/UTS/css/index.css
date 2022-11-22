@@ -21,16 +21,16 @@ body {
     margin-top: 10px;
   }
   
-  .dropdown-menu a{
+.dropdown-menu a{
     text-decoration: none;
     font-size: 20px;
     font-size: 900;
-  }
-  
-  .dropdown-menu img{
+}
+
+.dropdown-menu img{
     margin: 0;
     margin-right: 20px;
-  }
+}
 
 .nav-item  {
     padding: 0px 10px 0px 10px;
