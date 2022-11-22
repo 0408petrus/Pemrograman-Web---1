@@ -1,0 +1,77 @@
+.halaman{
+    background-color:#FFE6F7;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+nav ul li a:hover{
+    color: #000;
+}
+.carousel-item{
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat scroll center scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.carousel-item::before{
+    content:"";
+    display: block;
+    position: absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    background: rgba(0, 0, 0, 0.8);
+    opacity: 0.7;
+}
+.carousel-caption{
+    bottom: 180px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.carousel-caption h5{
+    font-size: 36px;
+    font-weight: 700;
+}
+.carousel-caption p{
+    font-size: 15px;
+    top: 2rem;
+}
+.slider-btn{
+    margin-top: 20px;
+}
+.slider-btn .btn{
+    background-color: #3c185fd5;
+    color: #fff;
+    width: 180px;
+    font-size: 12px;
+    padding: 12px 0;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+.slider-btn .btn:hover{
+    background-color: #fff;
+    color:#000;
+}  
+.judul{
+    margin-top: 40px;
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: #80489C;
+}
+.genre{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 500;
+    color: #432C7A;
+}
+section .col .card:hover .card-img-top{
+    transform: scale(1.1);
+}
+
+

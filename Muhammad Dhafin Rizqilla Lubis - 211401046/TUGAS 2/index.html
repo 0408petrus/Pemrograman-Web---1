@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+
+            // jQuery Events
+            $("h2").on({
+                mouseenter: function(){
+                    $(this).css("color", "red");
+                },
+                mouseleave: function(){
+                    $(this).css("color", "blue");
+                },
+                click: function(){
+                    $(this).css("color", "purple");
+                }
+            });
+
+            // jQuery Hide Show
+            $("#hide").click(function(){
+                $("#hideshow").hide();
+            });
+
+            $("#show").click(function(){
+                $("#hideshow").show();
+            });
+            
+            $("#toggle").click(function(){
+                $("#hideshow").toggle();
+            });
+
+            // jQuery Fade
+            $("#fadeout").click(function(){
+                $("#jqfade").fadeOut(800);
+            });
+
+            $("#fadein").click(function(){
+                $("#jqfade").fadeIn(800);
+            });
+
+            $("#fadetoggle").click(function(){
+                $("#jqfade").fadeToggle(800);
+            });
+
+            // jQuery Slide
+            $("#slidedown").click(function(){
+                $("#jqslide").slideDown("slow");
+            });
+
+            $("#slideup").click(function(){
+                $("#jqslide").slideUp("slow");
+            });
+
+            $("#slidetoggle").click(function(){
+                $("#jqslide").slideToggle("slow");
+            });
+            
+            // jQuery Animate
+            $("#animasi").click(function(){
+                $("#duck").animate({left:'800px'}, 1000);
+            }); 
+            
+            $("#animasi").click(function(){
+                $("#duck").animate({top:'100px'}, 1000);
+            });
+
+            $("#animasi").click(function(){
+                $("#duck").animate({width : '400px'}, 1000);
+            });
+
+        });
+    </script>
+
+    </head>
+    <body>
+        <h2>jQuery Hide/Show</h2>
+
+        <p id="hideshow">Paragraf ini akan hilang jika tombol "hide" ditekan dan muncul jika tombol "show" ditekan.</p>
+
+        <button id="hide">Hide</button>
+        <button id="show">Show</button>
+        <button id="toggle">Toggle</button>
+
+        <h2>jQuery Fade</h2>
+
+        <p id="jqfade">Paragraf ini akan digunakan untuk efek Fade Out dan Fade In</p>
+
+        <button id="fadeout">Fade Out</button>
+        <button id="fadein">Fade In</button>
+        <button id="fadetoggle">Toggle</button>
+        
+        <h2>jQuery Slide</h2>
+
+        <p id="jqslide">Tekan Slide Up untuk menyembunyikan teks ke atas</p>
+
+        <button id="slideup">Slide Up</button>
+        <button id="slidedown">Slide Down</button>
+        <button id="slidetoggle">Toggle</button>
+
+        <h2>jQuery Animate</h2>
+
+        <button id="animasi">Start Animation</button>
+        <br>
+        <img id="duck" src="img/pngwing.com.png" style="width: 100px ; height: auto; position: absolute;" alt="">
+
+    </body>
+</html>
