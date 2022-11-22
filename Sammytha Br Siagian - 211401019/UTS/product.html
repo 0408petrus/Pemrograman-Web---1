@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+        Avoskin
+    </title>
+    <link rel="icon" type="image/x-icon" href="./img/logo.png">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+
+<body>
+    <!--Javascript Display Date/Time-->
+    <p style="padding-left: 10px; color: #8d978d; text-align: center;"><span id="current-time"></span></p>
+    <script>
+      let time = document.getElementById("current-time");
+      setInterval(() => {
+        let d = new Date();
+        time.innerHTML = d.toLocaleTimeString();
+      },1000)  
+    </script>
+      
+    <img src="./img/avoskin.jpg" class="center" style="width: 20%; height: 20%;">
+    
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav mx-auto">
+              <a class="nav-link" href="home.html">HOME</a>
+              <a class="nav-link" href="product.html">PRODUCT</a>
+              <a class="nav-link" href="aboutus.html">ABOUT US</a>
+              <a class="nav-link" href="portofolio.html" target="_blank">PORTOFOLIO</a>
+            </div>
+          </div>
+        </div>
+    </nav>
+    
+    <!--Scrollspy-->
+    <div class="row" style="padding-top: 40px">
+      <div class="col-4">
+        <div id="simple-list-example" class="d-flex flex-column gap-2 simple-list-example-scrollspy text-center">
+          <a class="p-1 rounded" href="#simple-list-item-1">Divine Aura</a>
+          <a class="p-1 rounded" href="#simple-list-item-2">Miraculous Refining Series</a>
+          <a class="p-1 rounded" href="#simple-list-item-3">Beauty Friday Sale</a>
+        </div>
+      </div>
+      <div class="col-8">
+        <div data-bs-spy="scroll" data-bs-target="#simple-list-example" data-bs-offset="0" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+          <h4 id="simple-list-item-1">Divine Aura</h4>
+          <p>Avoskin collaborated with Paola Serena, to create the secret potion with the main ability to optimally moisturized, brighten, reduced appearance of dark spots, and reverse the age of the skin. The collaboration presents 3 products with superior formula that has been researched, experimented, and hopefully will able to answer the key secret of achieving your Dream Skin.</p>
+          <img src="./img/item1.jpg">
+          <hr style="width: 100%; border-width: 2px; color: #0a570a; margin-top: 40px;"> 
+          <h4 id="simple-list-item-2" style="padding-top: 20px">Miraculous Refining Series</h4>
+          <p>Due to huge amount of serum and toner with AHA and BHA demands, Avoskin will keep inovating to make products that meets the market's demand. Avoskin presents the latest skin care series, Miraculous Series. Besides containing AHA and BHA, the commitment to bring the best composition products from nature makes Avoskin Miraculous Series also contains a variety of natural extracts that are useful to provide miraculous results on the skin.</p>
+          <img src="./img/item2.jpg">
+          <hr style="width: 100%; border-width: 2px; color: #0a570a; margin-top: 40px;">
+          <h4 id="simple-list-item-3" style="padding-top: 20px">Beauty Friday Sale</h4>
+          <p>Beauty Friday Flash Sale 18 November 2022. My Basic Acne Kit discount up to 55% and VOUCHER 5K *min. purchase 99k.</p>
+          <img src="./img/item3.jpg">
+        </div>
+      </div>
+    </div>
+
+    <!--Footer-->
+    <div class="footer">
+      <div class="row">
+        <div class="col">
+          <h5>More Info</h5>
+          <li><a href="https://www.avoskinbeauty.com/terms-policies/" style="text-decoration: none;">Terms & Privacy Policy</a></li>
+          <li><a href="https://www.avoskinbeauty.com/shipping-policy/" style="text-decoration: none;">Shipping Policy</a></li>
+          <li><a href="https://www.avoskinbeauty.com/terms-conditions/" style="text-decoration: none;">Terms & Conditions</a></li>
+          <li><a href="https://www.avoskinbeauty.com/faq/" style="text-decoration: none;">FAQ</a></li>
+        </div>
+        <div class="col">
+          <h5>Follow Us</h5>
+          <div class="social" id="contact">
+            <a href="https://web.facebook.com/AvoskinID/?_rdc=1&_rdr" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://twitter.com/avoskinbeauty?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.youtube.com/c/AvoskinBeauty?app=desktop" target="_blank"><i class="fab fa-youtube"></i></a>
+            <a href="https://www.instagram.com/avoskinbeauty/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="col">
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>
