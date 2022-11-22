@@ -1,0 +1,65 @@
+/*-----------------------------------------*/
+                  /*Navbar*/
+  #navbarNavDropdown .navbar-nav a:hover{
+    background-color: white;
+    border-radius: 5px;
+    transition:  ease-in-out 0.2s;
+}
+/*-----------------------------------------*/
+
+/*-----------------------------------------*/
+                  /*Home*/
+  /*menu1*/
+  .menu{
+    padding-top: 300px;
+    background-image: url(Foto/BgMenu.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    text-align: center;
+    color: #2694c7;
+    font-family: Rockwell, sans-serif;
+}
+
+  .button {
+    border: none;
+    color: black;
+    padding: 8px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+  
+  .button1 {
+    background-color:transparent; 
+    border: 2px solid black;
+}
+  
+  .button1:hover {
+    background-color: #78c4be;
+    color: aqua;
+}
+.container{
+  text-align: center;
+}
+/*-----------------------------------------*/
+
+
+/*-----------------------------------------*/
+              /*Html Biodata*/
+  .Biodata{
+    margin-top: 20px;
+    text-align: center;
+    font-size: large;
+}
+  .Map{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+/*-----------------------------------------*/
+
