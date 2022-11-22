@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>The R | Developer Profile</title>
+        <!--Favicon-->
+            <link rel="icon" type="image/x-icon" href="R Logo.png">
+        <!--/Favicon-->
+        <!--Link CDN-->
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+            <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+        <!--Link CDN-->
+        <!--CSS-->
+        <link rel="stylesheet" href="style.css">
+        <!--/CSS-->
+    </head>
+    <body>
+    <!--Navbar-->
+    <nav class="navbar fixed-top bg-light">
+        <div class="container">
+            <a class="navbar-brand"><center><img src="R Logo.png" class="logonavbar"></center></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href=".\home.html" title="Visit Homepage" onclick="navhome()">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href=".\profile.html" title="Visit Dev Profile" onclick="navprofile()">Profile</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--/Navbar-->
+    <!--Content-->
+    <center>
+        <div class="title">
+            <h1 class="titleprofile" data-aos="fade-right" data-aos-duration="1000" title="Profile Title">Developer Profile</h1>
+            <p class="texttitleprofile" data-aos="fade-left" data-aos-duration="1000" title="Profile Text Title">Meet your creator</p>
+        </div>
+    </center>
+    <div class="container" id="container">
+        <div class="row">
+            <div class="col-sm-5 pt-5 pt-lg-5" id="profilepad" data-aos="fade-right" data-aos-duration="1000">
+                <img src="Profile 2.jpg" class="img-responsive" id="photoprofile">
+            </div>
+            <div class="col-sm-6 pt-lg-5" data-aos="fade-left" data-aos-duration="1000">
+                <h1 class="name" title="Developer's Name">Riyanda Azis Febrian</h1>
+                <p class="name" title="Developer's Quote">"The more you know, the more you wanna know"</p>
+                <a href="https://www.instagram.com/febriyann0/"><button type="button" class="btn btn-outline-dark">Visit my Instagram</button></a>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="container">
+        <div class="row">
+            <div class="col-sm-7 pt-lg-5" id="campuspad" data-aos="fade-right" data-aos-duration="1000">
+                <h1 class="campus" title="Developer's Campus">Developer's Campus</h1>
+                <p class="campus" title="Developer's Faculty">Faculty of Computer Science and Information Technology University of North Sumatera</p>
+            </div>
+            <div class="col-sm-4 pt-5 pt-lg-5" data-aos="fade-left" data-aos-duration="1000">
+                <img src="Fasilkom TI.png" class="img-responsive" id="campusphoto">
+            </div>
+        </div>
+    </div>
+    <div class="container" id="container">
+        <div class="row">
+            <div class="col-sm-5 pt-5 pt-lg-5" id="mappad" data-aos="fade-right" data-aos-duration="1000">
+                <div><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.5289020234336!2d98.68415377365687!3d3.6940121495644753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x303132c8e01a4ba9%3A0x121fc1c3b8394bf6!2sJl.%20Tempirai%203%2C%20Besar%2C%20Kec.%20Medan%20Labuhan%2C%20Kota%20Medan%2C%20Sumatera%20Utara!5e0!3m2!1sen!2sid!4v1668996425056!5m2!1sen!2sid" width="200" height="150" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+            </div>
+            <div class="col-sm-6 pt-lg-5" data-aos="fade-left" data-aos-duration="1000">
+                <h1 class="address" title="Developer's Address">Developer's Address</h1>
+                <p class="address" title="Address Name">"91, Tempirai 3 Street Griya Martubung"</p>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="lastcontainer">
+        <div class="row">
+            <center><div class="col-sm-7 pt-lg-5">
+                <h1 class="titleabout" data-aos="fade-right" data-aos-duration="1000" title="About">About Developer</h1>
+                <p class="textabout" data-aos="fade-left" data-aos-duration="1000" title="About Developer">I'm a student with highly motivated to learn a new thing. Having interest in App Development and Web Development. Also have a dream to be an expert in Web Development.</p>
+            </div></center>
+        </div>
+    </div>
+    <!-- Footer -->
+    <center>
+        <div class="p-3 mb-2 bg-dark text-white">
+            <img src="R Logo White.png" class="whitelogo">
+            <p class="text-muted" id="copyright">©2022 The R.</p>
+        </div>
+    </center>
+    <!-- /Footer -->
+    <!--/Content-->
+    <!--Script CDN-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+        <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <!--/Script CDN-->
+    <!--Script AOS-->
+        <script>AOS.init();</script>
+    <!--/Script AOS-->
+    </body>
+</html>
