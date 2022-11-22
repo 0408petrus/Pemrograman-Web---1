@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script>
+    $ (document).ready(function(){
+        $("#hide").click(function(){
+            $("p").hide();
+        });
+        $("#show").click(function(){
+            $("p").show();
+        });
+        $("#fadein").click(function(){
+            $("h2").fadeIn(500);
+        });
+        $("#fadeout").click(function(){
+            $("h2").fadeOut(500);
+        });
+    });
+</script>
+<script>
+    $(document).ready(function(){
+        $("p").on({
+            mouseenter: function(){
+                $(this).css("background-color","moccasin");
+            },
+            mouseleave: function(){
+                $(this).css("background-color","lavender");
+            },
+            click: function(){
+                $(this).css("background-color","darksalmon");
+            },
+        });
+    });
+</script>
+    </head>
+    <body>
+<h2> Sad Quote Image </h2>
+<img src="quotes.jpeg" alt="quotes" >
+
+<p>Hai, terima kasih sudah singgah walaupun tak sungguh!</p>
+<button id="hide">Hide</button>
+<button id="show">Show</button>
+<button id="fadein">Fade in title</button>
+<button id="fadeout">Fade out title</button>
+    </body>
+</html>
