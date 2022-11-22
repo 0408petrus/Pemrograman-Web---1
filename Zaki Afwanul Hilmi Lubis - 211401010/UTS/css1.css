@@ -1,0 +1,74 @@
+.teks{
+    font-family: 'Dancing Script', cursive;
+font-family: 'Lemonada', cursive;
+}
+.card-title {
+    font-family: 'Dancing Script', cursive;
+font-family: 'Fugaz One', cursive;
+}
+.nav-item{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Patua One', cursive;
+    font-size: 18px;
+}
+.bio{
+    font-size: 20px;
+    font-family: 'Handlee', cursive;
+}
+.nav-link active{
+    font-family: 'Dancing Script', cursive;
+font-family: 'Patua One', cursive;
+}
+.right{
+    width: 25px;
+    height: 25px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Patua One', cursive;
+    }
+.left{
+    font-family: 'Dancing Script', cursive;
+font-family: 'Fugaz One', cursive;
+}
+#navbarScroll .navbar-nav li a:hover {
+    background-color: rgb(21, 91, 182);
+    border-radius: 5px;
+    color: aliceblue;
+}
+.navbar-brand{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lemon', cursive;
+    color: rgb(228, 0, 46);
+    font-size: 30px;
+}
+#InfoCont{
+    font-family: 'Dancing Script', cursive;
+font-family: 'Fugaz One', cursive;
+}
+#kirim{
+    background-color: rgb(65, 62, 211);
+    color: rgb(255, 255, 255);
+    font-family: 'Dancing Script', cursive;
+font-family: 'Lemonada', cursive;
+}
+.card-body{
+    background-color: rgb(39, 209, 158);
+    border-color: rgb(39, 209, 158);
+}
+.card-text{
+    font-family: 'Dancing Script', cursive;
+font-family: 'Lemonada', cursive;
+}
+.card{
+    padding: 10px rgb(39, 209, 158);
+    border-color: rgb(39, 209, 158);
+}
+#judulport{
+    color: rgb(107, 71, 16);
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Shrikhand', cursive;
+    font-size: 50px;
+}
+#Judul{
+    font-family: 'Dancing Script', cursive;
+font-family: 'Lemon', cursive;
+}

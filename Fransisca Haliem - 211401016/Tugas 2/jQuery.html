@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+	<title>Tugas Pemrograman Web 016</title>
+
+    <!--Script JQuery-->
+    <script>
+        $(document).ready(function(){
+            // untuk text
+            $("#hide").click(function(){
+                $("#target").hide();
+            });
+            $("#show").click(function(){
+                $("#target").show();
+            });
+            $("#fadeOut").click(function(){
+                $("#target").fadeOut(1000);
+            });
+            $("#fadeIn").click(function(){
+                $("#target").fadeIn(1500);
+            });
+            $("#slideUp").click(function(){
+                $("#target").slideUp();
+            });
+            $("#slideDown").click(function(){
+                $("#target").slideDown();
+            });
+            $("#slideToggle").click(function(){
+                $("#target").slideToggle();
+            });
+            $("#animate").click(function() {
+                    $("#target").animate({paddingLeft: "+=15px"});
+            });
+            $("#resetAnimate").click(function() {
+                    $("#target").animate({paddingLeft: "0px"});
+            });
+
+            // untuk gambar 
+            $("#gambar").mouseenter(function(){
+                $("#gambar").animate({width:"300px"})
+            });
+            $("#gambar").mouseleave(function(){
+                $("#gambar").animate({width:"200px"})
+            });
+     
+        });
+    </script>
+    <!------->
+</head>
+<body>
+    <center><h3 id="Judul">Tekan Tombol Untuk Melihat Efek</h3></center>
+    <center>
+        <p id="target">Belajar HTML Sangat Mudah dan Menyenangkan</p>
+
+        <button id="hide" style="color: blueviolet">Hide</button>
+        <button id="show" style="color: rgb(255, 0, 0)">Show</button>
+        <button id="fadeOut" style="color: rgb(0, 255, 255)">Fade-Out</button>
+        <button id="fadeIn" style="color: rgb(255, 251, 147) ">Fade-In</button>
+        <button id="slideUp" style="color: rgb(232, 147, 255) ">Slide Up</button>
+        <button id="slideDown" style="color: rgb(83, 254, 21) ">Slide Down</button>
+        <button id="slideToggle" style="color: rgb(255, 147, 201) ">Slide Toggle</button>
+        <button id="animate" style="color: rgb(255, 147, 147) ">Animate</button>
+        <button id="resetAnimate" style="color: rgb(54, 111, 13) ">Reset Animate</button>
+    </center>
+
+   <center> <h4>Efek Animasi Gambar (Arahkan Kursor Ke Gambar)</h4> </center>
+    <center><img src="presiden indonesia.jpg" id="gambar" width="150" height="150"></center>
+	
+</body>
+</html>
