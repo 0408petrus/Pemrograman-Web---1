@@ -1,0 +1,35 @@
+.contents-item {
+    
+    font-size: 33.napx;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin : 45px 100px; 
+    color: rgb(154, 19, 109);
+    align-items: left;
+}
+.nav-item:hover {
+    background-color: rgb(218, 107, 230);
+}
+body{
+    background-image: url('https://img.freepik.com/free-photo/pastel-pink-vignette-concrete-textured-background_53876-129734.jpg?w=2000');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+  .bitt{
+    background-color: aliceblue;
+    width: 1400px;
+    height: 1000px;
+    margin: 20px;
+    padding: 10px;
+  }
+  .najla{
+    background-color: palevioletred;
+    width :1000px;
+    height:600px;
+    margin-left: 100px;
+    padding: 100px;
+    
+  }
+
+  
+
