@@ -1,0 +1,158 @@
+* 
+{
+    box-sizing: border-box;
+}
+
+/*===== Home =====*/
+/*----- Navbar -----*/
+.logonavbar
+{
+    width: 60px;
+    height: 30px;
+}
+
+/*----- Carousel -----*/
+.carousel slide
+{
+    padding-top: 50px;
+}
+
+/*----- Content -----*/
+.titleh1
+{
+    font-style: italic;
+    font-size: 30px;
+    padding-top: 50px;
+}
+.texth1
+{
+    font-style: italic;
+    font-size: 15px;
+    padding-top: 20px;
+}
+#contain
+{
+    padding-bottom: 30px;
+}
+#row
+{
+    padding-top: 30px;
+}
+.pict
+{
+    display: block;
+    width: 75%;
+    height: 100%;
+}
+.pictmore
+{
+    display: block;
+    width: 80%;
+    height: 80%;
+}
+
+/*===== Profile =====*/
+/*----- Title -----*/
+.title
+{
+    padding-top: 300px;
+}
+.titleprofile
+{
+    font-style: italic;
+}
+.texttitleprofile
+{
+    font-size: 15px;
+    font-style: italic;
+}
+
+/*----- Riyanda -----*/
+#container
+{
+    padding-top: 300px;
+}
+#lastcontainer
+{
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+#profilepad
+{
+    padding-left: 250px;
+}
+.name
+{
+    font-style: italic;
+}
+#photoprofile
+{
+    width: 200px;
+}
+
+/*----- campus ------*/
+#campuspad
+{
+    padding-left: 250px;
+}
+.campus
+{
+    font-style: italic;
+}
+#campusphoto
+{
+    width: 200px;
+    height: 180px;
+}
+
+/*----- Maps -----*/
+#mappad
+{
+    padding-left: 250px;
+}
+.address
+{
+    font-style: italic;
+}
+
+.titleabout
+{
+    font-style: italic;
+}
+.textabout
+{
+    font-style: italic;
+}
+
+/*----- Footer -----*/
+.whitelogo
+{
+    width: 60px;
+    height: 40px;
+}
+#copyright
+{
+    font-style: italic;
+    font-size: 15px;
+}
+
+/*----- More Aesthetic Button -----*/
+.buttonmore
+{
+    padding-bottom: 25px;
+}
+.btn btn-outline-dark
+{
+    font-style: italic;
+}
+#clicktext
+{
+    font-style: italic;
+    font-size: 12px;
+}
+
+/*===== Rounded Profie =====*/
+.img-responsive 
+{
+    border-radius: 48%;
+}

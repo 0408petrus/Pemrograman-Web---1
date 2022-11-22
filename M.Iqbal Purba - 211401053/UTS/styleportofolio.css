@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@400;700&family=Poppins&family=Righteous&family=Silkscreen&family=Source+Serif+Pro&family=ZCOOL+XiaoWei&family=Zilla+Slab:wght@500&display=swap');
+
+*{
+    font-family: 'Philosopher', sans-serif;
+    overflow-x: hidden;
+}
+#navBarP {
+    background-color: #83b6a3;    
+}
+
+#navBarP .container ul li a:hover{
+    background-color:#487b68 ;
+    border-radius: 5px;
+    
+}
+
+section#home {
+    padding-top: 150px;
+}
+
+section#home h2,p{
+    font-weight: bolder;
+}
+
+section#home h2 {
+    font-size: 300%;
+}
+
+p#garis {
+    color: #487b68;
+    width: 70%;
+    
+}
+
+#about {
+    margin-top: 20%;
+    margin-bottom: 8%;
+    padding: 200px 0;
+    
+}
+
+.container .row .col#AboutMe {
+    font-size: 20px;
+}
+
+.container .row .col#AboutMe #link1{
+    text-decoration: none;
+    color: #487b68;
+
+}
+
+
+#project {
+    padding-top: 150px;
+}
+
+#project #cardProject {
+    margin: 100px;
+}
+
+#btnInfo {
+    background-color: #83b6a3;
+    color: rgb(255, 254, 254);
+}
+
+#btnInfo:hover {
+    background-color: #487b68;
+    color: rgb(255, 254, 254);
+}
+
+section#contact {
+    padding-top: 100px;
+}
+
+#Tulisan {
+    font-size: 24px;
+}
+
+section#footer {
+    text-align: center;
+    background-color:#487b68;
+    font-size: 18px;
+    color: whitesmoke;
+    padding: 10px 10px;
+}
+
+@media screen and (max-width:770px) {
+    #home {
+        padding-top: 0;
+    }
+    section#home .container{
+        text-align: center;
+    }
+
+    section#home .container #garis {
+        width: 100%;
+    }
+
+    #project #cardProject {
+        margin: 10px;
+    }
+
+ 
+}
+
+
+
+@media screen and (max-width:990px) {
+
+
+    #navBarP .container ul li a:hover{
+        background-color:#83b6a3 ;
+        color: #487b68;
+    }
+
+    section#home h2 {
+        font-size: 200%;
+    }
+}
+
+
+/* STYLE HALAMAN INDEX.HTML */
+
+

@@ -1,0 +1,20 @@
+body {
+    background-color: rgb(241, 201, 208);
+    background-size: cover;
+}
+.contents-item {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 75px 200px;
+}
+.nav-item:hover {
+    background-color: pink;
+}
+.contents-item p a:hover{
+    background-color: pink;
+    color:black;
+}
+.card-body img{
+    height: 150px;
+    width: 300px;
+}

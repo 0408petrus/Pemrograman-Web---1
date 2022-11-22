@@ -1,0 +1,99 @@
+.navbar {
+ background-color: rgb(148, 70, 70);
+ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ font-size: medium;
+ font-weight: bolder;
+}
+
+.navbar ul{
+  background-color: rgb(148, 70, 70);
+}
+
+.navbar a{
+  color: rgb(249, 196, 183);
+}
+
+li:hover{
+  background: white;
+  transition: .5s
+}
+
+.col {
+  color: rgb(199, 12, 12);
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.col h5{
+  color: rgb(169, 17, 17);
+  font-weight: bold;
+}
+
+.maps {
+  color: rgb(199, 12, 12);
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.maps h5{
+  color: rgb(169, 17, 17);
+  font-weight: bold;
+}
+
+.social{
+  text-align: center;
+  padding-top: 20px;
+  font-size: 40px;
+  letter-spacing: 3pt;
+}
+
+
+.fa-instagram {
+  color: rgb(148, 70, 70);
+}
+
+.fa-github {
+  color: rgb(148, 70, 70);
+}
+
+.fa-youtube {
+  color: rgb(148, 70, 70);
+}
+
+.fa-steam {
+  color: rgb(148, 70, 70);
+}
+
+.fa-spotify {
+  color: rgb(148, 70, 70);
+}
+
+.card-deck {
+  display: flex;
+}
+
+@media (min-width:34em) {
+  .card-deck > .card
+  {
+      margin-right: 10px;
+      margin-left: 10px;
+      width: 35%;
+      flex-wrap: wrap;
+      flex: initial; 
+  }
+}
+
+.card {
+  padding: 15px 15px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus {
+    background-color: rgb(169, 17, 17);
+    border-color: rgb(169, 17, 17);
+}
+

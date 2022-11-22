@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+	<title>Tugas 2 LAB 1 Pemograman Web</title>
+
+    <script>
+        $(document).ready(function(){
+
+            $("#hide").click(function(){
+                $("#target").hide();
+            });
+            $("#show").click(function(){
+                $("#target").show();
+            });
+            $("#fadeOut").click(function(){
+                $("#sandwich").fadeOut(1200);
+            });
+            $("#fadeIn").click(function(){
+                $("#sandwich").fadeIn(1200);
+            });
+            $("#slideUp").click(function(){
+                $("#sandwich").slideUp();
+            });
+            $("#slideDown").click(function(){
+                $("#sandwich").slideDown();
+            });
+            $("#slideToggle").click(function(){
+                $("#sandwich").slideToggle();
+            });
+            $("#animate").click(function() {
+                $("#sandwich").animate({paddingLeft: "+=40px"});
+            });
+            $("#resetAnimate").click(function() {
+                $("#sandwich").animate({paddingLeft: "0px"});
+            });
+            $("#sandwich").mouseenter(function(){
+                $("#sandwich").animate({width:"300px"})
+            });
+            $("#sandwich").mouseleave(function(){
+                $("#sandwich").animate({width:"500px"})
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <style>
+        body{
+            background-color: whitesmoke;
+        }
+        h1{
+            text-align: center;
+            font-weight: bolder;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        p{
+            text-align: center;
+            font-size: 18px;
+        }
+    </style>
+    <h1 id="title">Tekan Tombol Untuk Melihat Efek</h1>
+    <p id="target">Teks akan hilang bila kamu klik HIDE, dan akan muncul ketika kamu klik SHOW</p></center>
+
+        <center>
+        <button id="hide" style="background-color: #F4C2C2; border:none; border-radius:5rem; font-size: 15px; font-family: inherit;">Hide</button>
+        <button id="show" style="background-color: #ffc0cb; border:none; border-radius:5rem; font-size: 15px; font-family: inherit;">Show</button>
+        </center>
+
+    <p>Coba Tombol - tombol di bawah ini:</p>
+        
+        <center>
+        <button id="fadeOut" style="background-color: #f5f5dc; border:none; border-radius:5rem; font-size: 15px; font-family: inherit;">Fade-Out</button>
+        <button id="fadeIn" style="background-color: #ffe5b4; border:none; border-radius:5rem; font-size: 15px; font-family: inherit; ">Fade-In</button>
+        <button id="slideUp" style="background-color:#dcae96; border:none; border-radius:5rem; font-size: 15px; font-family: inherit;">Slide Up</button>
+        <button id="slideDown" style="background-color:#d2b48c ; border:none; border-radius:5rem; font-size: 15px; font-family: inherit;">Slide Down</button>
+        <button id="slideToggle" style="background-color: #b2ac88; border:none; border-radius:5rem; font-size: 15px; font-family: inherit;">Slide Toggle</button></center>
+        
+    <center><br/><img src="sandwich-gc645ba542_640.jpg" id="sandwich"></center>
+        
+        <center><br>
+        <button id="animate" style="background-color: #ADD8E6; border:none; border-radius:5rem; font-size: 15px; font-family: inherit;">Animate</button>
+        <button id="resetAnimate" style="background-color: #87CEEB; border:none; border-radius:5rem; font-size: 15px; font-family: inherit;">Reset Animate</button>
+        </center>
+    
+    <center> <h4>[Animasi] Arahkan kursor ke gambar</h4> </center>
+	
+</body>
+</html>
