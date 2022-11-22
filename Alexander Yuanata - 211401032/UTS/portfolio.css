@@ -1,0 +1,445 @@
+/*hide all horizontal overflow*/
+html {
+    height: 100%;
+}
+
+body {
+    font-family: Trueno;
+    background-color: rgb(247, 247, 247) !important;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    cursor:default;
+}
+
+/*content css*/
+
+#header {
+    position: fixed !important;
+    padding: 0;
+    width: 100vw;
+    background-color: rgba(255, 255, 255, 0);
+    height: 6vh;
+    top: 0;
+    z-index: 10;
+}
+
+#port-header {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#back-link {
+    position: absolute;
+    padding-left: 12px;
+    transition: 0.5s ease-in-out;
+    z-index: 3;
+}
+
+#expand-bg {
+    position: relative;
+    transform: scale(100%);
+    left: 30px;
+    top: -10px;
+    width: 10px;
+    height: 10px;
+    border: 0px solid white;
+    border-radius: 100%;
+    background-color: rgb(45, 45, 45);
+    opacity: 0;
+    transition: 0.35s ease-in-out;
+}
+
+.links {
+    font-family: Righteous;
+    text-align: left;
+    text-decoration: none;
+    color: rgb(42, 42, 42);
+    font-size: 20px;
+    padding-top: 0.8vh;
+    text-shadow: 1px 1px white;
+    transition: 0.5s ease-in-out;
+}
+
+.links:hover {
+    color: rgb(103, 227, 177);
+}
+
+#back-link:hover {
+    color: rgb(103, 227, 177);
+    text-shadow: none;
+}
+
+#back-link:hover + #expand-bg {
+    transform: scale(30000%);
+    opacity: 1;
+}
+
+#back-link:hover ~ .links {
+    color: rgb(255, 255, 255);
+    text-shadow: none;
+    transition: 0.35s ease-in-out;
+}
+
+#intro {
+    height: 55vh;
+    margin: 0vh 2vh;
+    position: relative;
+}
+
+#photo {
+    padding: 0;
+    margin: 0;
+}
+
+#selfimg {
+    box-sizing: content-box;
+    height: 45vh;
+    margin-top: 6vh;
+    background-size: cover;
+    background-image: url("./img/self.jpg");
+    background-position: -10%;
+}
+
+#cmyk-col {
+    padding-right: 20px;
+    margin: 0;
+    margin-top: 6vh;
+}
+
+.cmyk {
+    height: 25%;
+    width: 100%;
+}
+
+#intro-1 {
+    font-family: Pacifico;
+    font-size: 35px;
+    top: 25px;
+    position: absolute;
+}
+
+#intro-2 {
+    top: 15%;
+    position: relative;
+    left: 2%;
+    font-family: Pacifico;
+}
+
+#intro-list {
+    position: relative;
+    top: 20%;
+    left: 25%;
+    text-shadow: 2px 2px white;
+    transform: scale(150%);
+    z-index: -1;
+}
+
+.il {
+    font-size: 50px;
+}
+
+#creative {
+    font-family: Satisfy;
+    font-weight: bolder;
+    font-size: 80px;
+}
+
+#ampersand {
+    font-family: satisfy;
+    font-weight: bolder;
+    font-size: 250px;
+
+    position: absolute;
+    bottom: -20%;
+    right: 40%;
+    
+    text-shadow: 6px 6px rgb(231, 231, 231);
+    color: rgb(116, 255, 199);
+    z-index: -1;
+}  
+
+#developer {
+    font-family: righteous;
+    font-size: 80px;
+    
+    position: relative;
+    bottom: 30px;
+    left: 30%;
+}
+
+#decor-img1 {
+    height: 30%;
+    position: absolute;
+    bottom: 0;
+    overflow: hidden;
+}
+
+
+#down {
+    font-size: 200px;
+    text-align: left;
+    padding-left: 9%;
+}
+
+#contact {
+    position: absolute;
+    right: 0;
+    top: 0.12vh;
+    width: 15vw;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0)!important;
+}
+
+#back-top {
+    position: absolute;
+    top: 0.12vh;
+    right: 17vw;
+    height: 100%;
+    background-color: rgba(255, 0, 0, 0)(0, 0, 0);
+}
+
+#contact-list {
+    height: 100% !important;
+    border: none !important;
+    background-color: rgba(0, 0, 0, 0)!important;
+}
+
+#contact-cont {
+    margin-top: 5px;
+    border: none !important;
+    border-radius: 3px;
+    background-color: rgb(255, 255, 255);
+}
+
+#back-link:hover ~ #contact {
+    background-color: rgb(255, 0, 0);
+}
+
+#contact-toggle {
+    height: 10px !important;
+    background-color: rgba(0, 0, 0, 0)!important;
+}
+
+.spacer {
+    height: 20vh;
+}
+
+#target-2{
+    height: 15vh;
+}
+
+#about-me {
+    padding: 2vh 0;
+}
+
+#name {
+    font-family: Righteous;
+    text-decoration: underline;
+    font-size: 65px;
+    padding-left: 10px;
+}
+
+#name-intro {
+    font-size: 40px;
+    font-family: Urban;
+}
+
+#name-intro-ill > img{
+    width: 100%;
+    position: relative;
+    bottom: 100px;
+}
+
+#exposition {
+    font-family: Inter;
+    font-size: 25px;
+}
+
+#my-hobbies {
+    height: 75vh;
+}
+
+#hobby-potrait > img {
+    width: 100%;
+}
+
+#hobby-exp {
+    font-family: Inter;
+}
+
+#hobby-h {
+    font-family: righteous;
+    font-size: 60px;
+    margin-bottom: 25px;
+    border-bottom: 6px solid black;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+#hobby-p {
+    font-size: 18px;
+    text-align: justify;
+    text-justify: distribute;
+}
+
+.point {
+    font-family: righteous;
+    font-size: 30px;
+    color:rgb(79, 79, 79);
+    margin-left: 0.8vh;
+    text-decoration: none;
+    transition: 0.35s;
+}
+
+.point:hover{
+    cursor: pointer;
+    color:rgb(96, 96, 96);
+}
+
+#arrow1 {
+    position: absolute;
+    top: -5vh;
+    width: fit-content;
+}
+
+#arrow2 {
+    position: relative;
+    width: fit-content;
+    margin: 0;
+    left: 3vh;
+
+}
+
+#arrow2 > a {
+    text-decoration: none;
+    color:rgb(79, 79, 79);
+}
+
+#arrow3 {
+    position: relative;
+    left: 4vh;
+    top: 2vh;
+}
+
+#mail-icon {
+    max-width: 100%;
+    transform: rotate(5deg) scale(110%);
+    position: relative;
+    bottom: 6.5%;
+}
+
+#contact-info h2 {
+    font-family: Righteous;
+    font-size: 80px;
+}
+
+#contact-info span {
+    font-family: Pacifico;
+}
+
+#contact-details {
+    height: 10vh;
+}
+
+#contact-details .col-6 {
+    padding: 3vh 0;
+    font-family: Righteous;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+#contact-details img {
+    max-width: 10%;
+    margin-right: 4%;
+    margin-left: 3.5%;
+}
+
+#message-btn {
+    margin: 4vh 5%;
+    padding: 1vh 0;
+    font-family: Righteous;
+    font-size: 40px;
+    font-weight: 50;
+    width: 90%;
+    border: 2px solid black;
+    border-radius: 100px;
+    background-color: none;
+    color: black;
+    transition: 0.25s ease-in-out;
+}
+
+#message-btn:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(42, 42, 42);
+    border: 2px solid black;
+}
+
+#works {
+    height: 95vh;
+}
+
+#thumbnails > h2{
+    font-family: Righteous;
+    font-size: 6vh;
+}
+
+.stack-img {
+    height: 50%;
+    margin: 0;
+    padding: 0 0;
+}
+
+.stack-img > img{
+    border: 0px solid white;
+    border-radius: 1rem;
+    transform: 0.25s;
+}
+
+#thumbs {
+    height: 90%;
+}
+
+#thumb-col {
+    height: 100%;
+}
+
+.disimg {
+    max-width: 100%;
+}
+
+#sendmsg button {
+    background-color: #00000000!important;
+    font-family: Righteous !important;
+    color: #212529!important;
+    border: 2.5px solid #212529!important;
+    transition: 0.25s ease-in-out;
+}
+
+#sendmsg button:hover {
+    background-color: #212529!important;
+    color: #ffe535!important;
+}
+
+#personal-data img{
+    max-width: 40%;
+    position: relative;
+    left: 60%;
+}
+
+#personal-data p{
+    padding-top: 1vh;
+    font-family: Inter;
+    font-size: 25px;
+}
+
+
+/*some external css*/
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 700,
+  'GRAD' 0,
+  'opsz' 48
+}

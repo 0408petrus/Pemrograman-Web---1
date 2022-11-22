@@ -1,0 +1,95 @@
+/*custom fonts*/
+@font-face {
+    font-family: Righteous;
+    src:url("/fonts/Righteous-Regular.ttf");
+}
+
+@font-face {
+    font-family: Neue;
+    src: url("./fonts/BebasNeue-Regular.ttf");
+}
+
+@font-face {
+    font-family: Tihana;
+    src: url("./fonts/tihana.otf");
+}
+
+@font-face {
+    font-family: MyrianAncient;
+    src: url("./fonts/MyrianAncient-Regular.ttf");
+}
+
+@font-face {
+    font-family: MyrianModern;
+    src: url("./fonts/MyrianModern-Regular.ttf");
+}
+
+@font-face {
+    font-family: Satisfy;
+    src: url("./fonts/Satisfy-Regular.ttf");
+}
+
+@font-face {
+    font-family: Lobster;
+    src: url("./fonts/Lobster-Regular.ttf");
+}
+
+@font-face {
+    font-family: Pacifico;
+    src: url("./fonts/Pacifico-Regular.ttf");
+}
+
+@font-face {
+    font-family: Caveat;
+    src: url("./fonts/Caveat-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: Cooper;
+    src: url("./fonts/CooperHewitt-Medium.ttf");
+}
+
+@font-face {
+    font-family: Urban;
+    src: url("./fonts/Urbanist-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: Underdog;
+    src: url("./fonts/Urbanist-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: Patua;
+    src: url("./fonts/PatuaOne-Regular.ttf");
+}
+
+@font-face {
+    font-family: Prociono;
+    src: url("./fonts/Prociono.ttf");
+}
+
+@font-face {
+    font-family: Junius;
+    src: url("./fonts/JuniusX-Condensed.ttf");
+}
+
+@font-face {
+    font-family: BluuNext;
+    src: url("./fonts/BluuNext-Bold.otf");
+}
+
+@font-face {
+    font-family: BeyondSky;
+    src: url("./fonts/BeyondSkyTrial-r079.ttf");
+}
+
+@font-face {
+    font-family: Masterplan;
+    src: url("./fonts/MasterplanTrial-YPOo.ttf");
+}
+
+@font-face {
+    font-family: Tosca;
+    src: url("./fonts/ToscaZero-gyA4.otf");
+}
