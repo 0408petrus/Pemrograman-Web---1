@@ -1,0 +1,29 @@
+/* text hover */
+#tbl:hover {
+    background-color: blueviolet;
+}
+/* fbackground keseluruhan */
+body {
+    background-color: rgb(192, 253, 255);
+}
+/* font tulisan h5 */
+h5{
+    font-style: oblique;
+}
+/* font biasa */
+p{
+    font-style: italic;
+}
+/* font untuk tulisan h2 */
+h2{
+    font-style: oblique;
+}
+/* font navbar */
+nav{
+    font-style: italic;
+}
+/* untuk H3 */
+h3{
+    font-style: oblique;
+    font-size: 200%;
+}
