@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;1,200&family=Noto+Serif+Khojki&family=Roboto+Mono&family=Yeseva+One&display=swap');
+
+body {
+  background-color: black;
+  margin: auto;
+  padding: auto;
+  font-family: 'Noto Serif Khojki', serif;
+  color: white;
+}
+
+h1{
+  font-family: 'Yeseva One', cursive;
+  font-size: 175px;
+}
+
+.navbar a{
+  color: black;
+  font-size: 25px;
+}
+
+.navbar a:hover{
+  color: rgb(234, 205, 14);
+}
+
+.navbar img {
+  width: 35px;
+  height: 35px;
+  margin-top: 10px;
+}
+
+.dropdown-menu a{
+  text-decoration: none;
+  font-size: 20px;
+  font-size: 900;
+}
+
+.dropdown-menu img{
+  margin: 0;
+  margin-right: 20px;
+}
+
+.home-introduction img {
+  width: 35%;
+  position: relative;
+  z-index: 2;
+}
+
+.home-introduction{
+  position: relative;
+  z-index: 1;
+  font-weight: lighter;
+}
+
+.home-introduction h1{
+  position: relative;
+  z-index: 2;
+}
+
+#top{
+  color: white;
+  margin-top: -700px;
+}
+
+.intro-text-behind h1{
+  color: rgba(0, 0, 0, 0);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+  z-index: 0;
+  margin-top: -60px;
+}
+
+hr {
+  width: 75%;
+  border-top: 1px solid white;
+  opacity: 0.3;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+
+.about {
+  background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(../Image/Line\ Back.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: auto;
+  padding: 1px;
+}
+
+.about-container {
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+.about h1{
+  display: inline-block;
+}
+
+#hr-except {
+  margin-top: 0;
+}
+
+.yellow{
+  transition: 0.5s;
+}
+
+.yellow{
+  color:rgb(234, 205, 14);
+}
+
+.skill{
+  margin-top: 100px;
+}
+
+.skill img {
+  width: 150%;
+  height: auto;
+  margin-right: -350px;
+}
+
+.skill h1{
+  margin-left: 125px;
+  font-size: 195px;
+}
+
+.skill p{
+  margin-top: 17em;
+  margin-right: 100px;
+}
+
+.contact {
+  margin : 100px 185px 125px 185px;
+}
+
+.contact-info{
+  margin-top: 100px;
+}
+
+.contact hr{
+  width: 102%;
+  margin-left: -10px;
+  margin-top: 0;
+  opacity: 1;
+}
+
+.contact p{
+  margin-bottom: 5px;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 25px;
+}
+
+.contact .row{
+  transition: 0.2s;
+}
+
+.contact a{
+  text-decoration: none;
+  color: white;
+}
+
+.contact .row:hover{
+  background-color: white;
+  color: black;
+}

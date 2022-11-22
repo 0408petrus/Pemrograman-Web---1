@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@400;700&family=Poppins&family=Righteous&family=Silkscreen&family=Source+Serif+Pro&family=ZCOOL+XiaoWei&family=Zilla+Slab:wght@500&display=swap');
+
+*{
+    font-family: 'Philosopher', sans-serif;
+    overflow-x: hidden;
+}
+#navBarP {
+    background-color: #8EC3B0;    
+}
+
+#navBarP .container ul li a:hover{
+    background-color:#9ED5C5 ;
+    border-radius: 5px;
+    
+}
+
+.carousel1 {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+#judul {
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+#about {
+    padding-top: 15%;
+}
+
+#judulBesar {
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+#our {
+    padding-top: 15%;
+}
+
+#team1 {
+    margin-left: 200px;
+}
+
+#team2{
+    align-items: flex-end;
+}
+
+#btnInfo {
+    background-color: #83b6a3;
+    color: rgb(255, 254, 254);
+}
+
+#btnInfo:hover {
+    background-color: #487b68;
+    color: rgb(255, 254, 254);
+}
+
+#jabatan {
+    font-size: 3rem;
+}
+
+#contact {
+    padding-top: 200px;
+}
+section#footer {
+    text-align: center;
+    background-color:#487b68;
+    font-size: 18px;
+    color: whitesmoke;
+    padding: 10px 10px;
+}

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="./bootstraps/css/bootstrap.css">
+    <link rel="icon" href="./Image/Chips png.png">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">ZEUS217</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">ZEUS217</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./profile.html">Profile</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./form.html">Top UP</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Social Media
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="https://www.youtube.com/">YouTube</a></li>
+                  <li><a class="dropdown-item" href="https://instagram.com/nicholasyangg">Instagram</a></li>
+                  <li><a class="dropdown-item" href="https://twitter.com/ygynnn">Twitter</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex mt-3" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!--Image Carousel-->
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="3000">
+            <img src="./Image/Carousel 1.jpg" class="d-block w-100" alt="..." >
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="./Image/Carousel 2.jpg" class="d-block w-100" alt="..." >
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="./Image/Carousel 3.jpg" class="d-block w-100" alt="..." >
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!--Carousel Text-->
+    <div class="carousel-text">
+      <h1 class="display-1 text-center" id="text-primary-color" >ZEUS217</h1>
+      <a href="https://pbs.twimg.com/profile_images/1260795600833925122/l4xa8ZtJ_400x400.jpg" target="_blank"><button type="button" class="btn d-grid gap-2 mx-auto text-nowrap">WIN NOW!!!</button></a>
+    </div>
+
+    <!--Game Text-->
+    <div class="heading-text">
+      <h1 class="display-2 text-center" >Game to Your Liking</h1>  
+    </div>
+
+    <!--Game preview-->
+    <div class="container text-center game-preview" id="game-card">
+      <div class="row">
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img src="./Image/Chips png.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h2 class="card-title">Poker</h2>
+              <p class="card-text">Got some skills? Play Now !!!</p>
+              <a href="./warning.html" class="btn btn-primary" target="_blank">Play Now ></a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img src="./Image/Roulette png.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h2 class="card-title">Roulette</h2>
+              <p class="card-text">Place your bet and spin the wheel !!!</p>
+              <a href="./warning.html" class="btn btn-primary" target="_blank">Place Now ></a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img src="./Image/Slot png.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h2 class="card-title">Jackpot</h2>
+              <p class="card-text">Feeling Lucky? Try your luck now !!!</p>
+              <a href="./warning.html" class="btn btn-primary" target="_blank">Spin Now ></a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img src="./Image/Poker png.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h2 class="card-title">Many More!!!</h2>
+              <p class="card-text">And many more you can play</p>
+              <a href="./warning.html" class="btn btn-primary" target="_blank">Go Now !!! ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Top Up Text -->
+    <div class="heading-text">
+      <h1 class="display-2 text-center" >Low On Credit?</h1>  
+      <h6 class="display-6 text-center" >we got you</h6>
+    </div>
+
+    <!-- Bank Logo -->
+    <div class="container text-center bank">
+      <div class="row">
+        <div class="col"><img src="./Image/Logo BCA.png" alt=""></div>
+        <div class="col"><img src="./Image/Logo Mandiri.png" alt=""></div>
+        <div class="col"><img src="./Image/Logo BNI.png" alt=""></div>
+        <div class="col"><img src="./Image/Logo BRI.png" alt=""></div>
+      </div>
+      <div class="row">
+        <div class="col"><img src="./Image/Logo Go-pay.png" alt=""></div>
+        <div class="col"><img src="./Image/Logo OVO.png" alt=""></div>
+        <div class="col"><img src="./Image/Logo Dana.png" alt=""></div>
+      </div>
+      <a href="./form.html" class="btn btn-lg">Top UP</a>
+    </div>
+    <!-- footer -->
+    <div class="footer">
+      <p class="text-center">Copyright © Nicholas Yang</p>
+    </div>
+     <!-- JavaScript -->
+    <script src="./bootstraps/js/bootstrap.bundle.js"></script>
+</body>
+</html>
