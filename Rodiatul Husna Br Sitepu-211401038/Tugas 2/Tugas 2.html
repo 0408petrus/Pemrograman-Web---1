@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <h1>Contoh Kalimat</h1>
+        <script>
+            $(document).ready(function(){
+                //Hide
+                $("#hide").click(function(){
+                    $("h1").hide();
+                });
+                //Show
+                $("#show").click(function(){
+                    $("h1").show();
+                });
+                //Fade
+                $("#fadeout").click(function(){
+                    $("h1").fadeOut(300);
+                });
+                $("#fadein").click(function(){
+                    $("h1").fadeIn(600);
+                });
+                //Slide
+                $("#slideup").click(function(){
+                    $("h1").slideUp();
+                });
+                $("#slidedown").click(function(){
+                    $("h1").slideDown();
+                });
+                //Animate
+                $("#animasi").click(function(){
+                    $("h1").animate({height : 'toggle'});
+                });
+            });           
+        </script>
+        <button id="hide">Hide</button>
+        <button id="show">Show</button>
+        <button id="fadeout">FadeOut</button>       
+        <button id="fadein">FadeIn</button>
+        <button id="slideup">Slideup</button>
+        <button id="slidedown">Slidedown</button>
+        <button id="animasi">Animasi</button>
+    </body>
+</html>

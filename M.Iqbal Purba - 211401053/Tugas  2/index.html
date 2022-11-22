@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <title>TUGAS 2 | PW</title>
+    <!-- internal CSS -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@400;700&family=Poppins&family=Righteous&family=Silkscreen&family=Source+Serif+Pro&family=ZCOOL+XiaoWei&family=Zilla+Slab:wght@500&display=swap');
+
+        *{
+            font-family:'Philosopher', sans-serif;
+        }
+        h3{
+            font-size: 30px;
+            text-align: center;
+        }
+        #judul2{
+            margin-top: 150px;
+        }
+        #gambar{
+            width: 200px;   
+        }
+    </style>
+    <!-- akhir internal CSS -->
+</head>
+<body>
+    <h3 id="Judul">KLIK SALAH SATU TOMBOL UNTUK MENAMPILKAN EFEK PADA PARAGRAF BERIKUT</h3>
+    <center>
+        <p id="target">Aku adalah anak baik dan sehat</p>
+
+        <button id="hide">Hide</button>
+        <button id="show">Show</button>
+        <button id="fadeOut">Fade-Out</button>
+        <button id="fadeIn">Fade-In</button>
+        <button id="slideUp">Slide Up</button>
+        <button id="slideDown">Slide Down</button>
+        <button id="slideToggle">Slide Toggle</button>
+        <button id="animate">Animate</button>
+        <button id="resetAnimate">Reset Animate</button>
+    </center>
+
+    <h3 id="judul2">ARAHKAN KURSOR ANDA PADA GAMBAR UNTUK MEMBERIKAN EFEK ANIMASI </h3>
+
+    <center><img src="asset/portofolio.png" id="gambar" ></center>
+
+
+
+
+    <!-- Script JQuery -->
+    <script>
+        $(document).ready(function(){
+            // untuk text
+            $("#hide").click(function(){
+                $("#target").hide();
+            });
+            $("#show").click(function(){
+                $("#target").show();
+            });
+            $("#fadeOut").click(function(){
+                $("#target").fadeOut(1000);
+            });
+            $("#fadeIn").click(function(){
+                $("#target").fadeIn(1500);
+            });
+            $("#slideUp").click(function(){
+                $("#target").slideUp();
+            });
+            $("#slideDown").click(function(){
+                $("#target").slideDown();
+            });
+            $("#slideToggle").click(function(){
+                $("#target").slideToggle();
+            });
+            $("#animate").click(function() {
+                    $("#target").animate({paddingLeft: "+=15px"});
+            });
+            $("#resetAnimate").click(function() {
+                    $("#target").animate({paddingLeft: "0px"});
+            });
+
+            // untuk gambar 
+            $("#gambar").mouseenter(function(){
+                $("#gambar").animate({width:"300px"})
+            });
+            $("#gambar").mouseleave(function(){
+                $("#gambar").animate({width:"200px"})
+            });
+     
+        });
+    </script>
+    <!-- Akhir script JQuery -->
+</body>
+</html>

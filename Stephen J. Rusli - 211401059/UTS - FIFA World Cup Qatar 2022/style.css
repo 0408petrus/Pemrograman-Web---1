@@ -1,0 +1,91 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(Qatar2022Arabic-Heavy.ttf);
+}
+
+.navbar li{
+    padding-left: 15px;
+}
+
+.dropdown-item:active{
+    background-color: white!important;
+}
+
+.carousel p :hover{
+    background-color: white;
+    color: #8a1538;
+}
+
+.timer{
+    background-color: #8a1538;
+}
+ 
+.timer h2{
+    font-family: myFirstFont;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+.songs{
+    background-color: #8a1538;
+}
+ 
+.songs h2{
+    font-family: myFirstFont;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+}
+
+.row{
+    padding: 22px;
+}
+
+.row h5{
+    font-family: myFirstFont;
+    color:#8a1538;
+}
+
+.row p{
+    font-family: sans-serif;
+    color:#8a1538;
+}
+
+.portfolio{
+    padding: 50px 0;
+    background-color: #8a1538;
+}
+
+.portfolio p{
+    padding-top: 35px;
+    font-family: myFirstFont;
+    font-size: 20px;
+    text-align: left;
+    color:white;
+}
+
+.table{
+    width: 100%;
+    text-align: center;
+    background-color: #8a1538;
+}
+
+.table th{
+    height: 50px;
+    font-family: myFirstFont;
+    color:white;
+}
+
+.table td{
+    height: 50px;
+    font-family: sans-serif;
+    color:white;
+}
+
+.footer{
+    background: white;
+    font-family:myFirstFont;
+    font-size: 15px;
+    color: #8a1538;
+}

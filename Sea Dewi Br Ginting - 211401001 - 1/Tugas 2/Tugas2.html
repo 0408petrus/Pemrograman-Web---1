@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("#hide").click(function(){
+                    $("p").hide();
+                });
+                $("#show").click(function(){
+                    $("p").show();
+                });
+                $("#fade").click(function(){
+                    $("p").fadeOut(500);
+                });
+                $("#slideup").click(function(){
+                    $("p").slideUp();
+                });
+                $("#slidedown").click(function(){
+                    $("p").slideDown();
+                });
+                $("#animasi").click(function(){
+                    $("div").animate({height:'toggle'});
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <p>Klik</p>
+        <button id="hide">Hide</button>
+        <button id="show">Show</button>
+        <button id="fade">Fade</button>
+        <button id="slideup">Slideup</button>
+        <button id="slidedown">Slidedown</button>
+        <button id="animasi">Animasi</button>
+        <div style="background-color: rgb(0, 195, 255); width: 300px; height: 100px; position:absolute"></div>
+    </body>
+</html>

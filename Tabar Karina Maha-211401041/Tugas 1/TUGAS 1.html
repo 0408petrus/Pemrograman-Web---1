@@ -1,0 +1,356 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+    <!--title-->
+    <title>Tugas 3 Web</title>
+
+    <!--Icon-->
+    <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/3097/3097122.png">
+
+    <!--link css bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  
+  </head>
+
+  <body>
+
+  <!--internal css-->
+  <style>
+    body {background-color :whitesmoke}
+    header{
+    position: relative;
+    top:0; left:0; right:0;
+    padding:20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+    h1{
+      font-family:inherit;
+      font-size:3rem;
+      color:#000;
+      padding-left:  60px;
+      font-weight: bolder;
+    }
+    .btn{
+      border-radius:5rem;
+      background:#D0C4AB;
+      border:none;
+    }
+    .card{
+    border: none;
+    }
+    h4{
+      text-align: center;
+      font-size: 2rem;
+      font-weight: bolder;
+      font-family:Verdana, Geneva, Tahoma, sans-serif ;
+      padding:2rem 0;
+    }
+    iframe{
+      margin-bottom:2rem ;
+    }
+    footer{
+    position:relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #555;
+    height: auto;
+    width: 100vw;
+    font-family:inherit;
+    padding-top: 20px;
+    color: #fff;
+  }
+  .footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer-content span{
+   font-weight: bolder;
+  }
+  .footer-bottom{
+    background: #000;
+    width: 100vw;
+    padding: 10px 0;
+    text-align: center;
+  }
+  .footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;}
+  </style>
+  
+  <!--header-->
+  <header>    
+    <h1 id="zalora">ZALORA</h1>
+    
+  <!--navbar-->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span></button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 50px width  : 200px;">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#zalora" target="_blank">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="file:///C:/Users/LENOVO/Documents/karin/kawrenn/Tugas%20Pemograman%20Web_041/portfolio.html" target="_blank">My Portfolio</a>
+              </li>
+              <a class="nav-link active" aria-current="page" href="file:///C:/Users/LENOVO/Documents/karin/kawrenn/Tugas%20Pemograman%20Web_041/consult.html" target="_blank">Consultation</a>
+              </li>
+              <li class="nav-item">
+              <li class="nav-item dropdown">
+                <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Contents</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="file:///C:/Users/LENOVO/Documents/karin/kawrenn/UTS%20Pemograman%20Web/Tugas%203%20web.html" target="_blank">Baking With Me</a></li>
+              <li><a class="dropdown-item" href="https://biodatakarinn.blogspot.com/" target="_blank">Website</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
+
+<!--search-->
+  <form class="d-flex" role="search">
+    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+</header>
+<!--header end-->
+
+<!--placeholder-->
+<p class="placeholder-glow">
+  <span class="placeholder col-12"></span>
+</p>
+
+<!--button group-->
+<center>
+  <div class="btn-group">
+    <button type="button" class="btn btn-light" href="https://www.zalora.co.id/women/?from=header">Women</button>
+    <button type="button" class="btn btn-light dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+      <span class="visually-hidden">Toggle Dropdown</span>
+    </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="https://www.zalora.co.id/women/pakaian/?from=header" target="_blank">Pakaian</a></li>
+        <li><a class="dropdown-item" href="https://www.zalora.co.id/women/sepatu/?from=header" target="_blank">Sepatu</a></li>
+        <li><a class="dropdown-item" href="https://www.zalora.co.id/women/tas/?from=header">Tas</a></li>
+        <li><a class="dropdown-item" href="https://www.zalora.co.id/women/aksesoris/?from=header">Jam dan Aksesoris</a></li>
+        <li><a class="dropdown-item" href="https://www.zalora.co.id/women/luxury/?from=header">Luxury</a></li>
+      </ul>
+    </div>
+
+  <div class="btn-group">
+    <button type="button" class="btn btn-light" href="https://www.zalora.co.id/men/?from=header">Men</button>
+    <button type="button" class="btn btn-light dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+      <span class="visually-hidden">Toggle Dropdown</span>
+    </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="https://www.zalora.co.id/men/pakaian/?from=header">Pakaian</a></li>
+        <li><a class="dropdown-item" href="https://www.zalora.co.id/men/sepatu/?from=header">Sepatu</a></li>
+        <li><a class="dropdown-item" href="https://www.zalora.co.id/men/tas/?from=header">Tas</a></li>
+        <li><a class="dropdown-item" href="https://www.zalora.co.id/men/aksesoris/?from=header">Jam tangan</a></li>
+        <li><a class="dropdown-item" href="https://www.zalora.co.id/men/grooming/?from=header">Men's Care</a></li>
+      </ul>
+    </div>
+
+    <div class="btn-group">
+      <button type="button" class="btn btn-light">Beauty</button>
+      <button type="button" class="btn btn-light dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+        <span class="visually-hidden">Toggle Dropdown</span>
+      </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="https://www.zalora.co.id/beauty/skin-care/?from=header">Skin Care</a></li>
+          <li><a class="dropdown-item" href="https://www.zalora.co.id/beauty/make-up/?from=header">Make Up</a></li>
+          <li><a class="dropdown-item" href="https://www.zalora.co.id/beauty/fragrances/?from=header">Fragrances</a></li>
+          <li><a class="dropdown-item" href="https://www.zalora.co.id/beauty/body/?from=header">Bath and Body</a></li>
+          <li><a class="dropdown-item" href="https://www.zalora.co.id/beauty/hair-care/?from=header">Hair Care</a></li>
+        </ul>
+      </div>
+
+  <div class="btn-group">
+    <button type="button" class="btn btn-light">Sports</button>
+        <button type="button" class="btn btn-light dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+          <span class="visually-hidden">Toggle Dropdown</span>
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="https://www.zalora.co.id/sports/wanita-sports/?from=header">Sports Wanita</a></li>
+          <li><a class="dropdown-item" href="https://www.zalora.co.id/sports/sports-pria/?from=header">Sports Pria</a></li>
+          <li><a class="dropdown-item" href="https://www.zalora.co.id/sports/anak-sports/?from=header">Sports Anak</a></li>
+          <li><a class="dropdown-item" href="https://www.zalora.co.id/home-of-athleisure/?from=header">Athleisure</a></li>
+          <li><a class="dropdown-item" href="https://www.zalora.co.id/sports/alat-olahraga-suplemen/?from=header">Alat Olahraga</a></li>
+        </ul>
+      </div>
+      
+  <div class="btn-group">
+    <button type="button" class="btn btn-light">Home and Lifestyle</button>
+        <button type="button" class="btn btn-light dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+          <span class="visually-hidden">Toggle Dropdown</span>
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="https://www.zalora.co.id/lifestyle/furnitur/?from=header">Furniture</a></li>
+          <li><a class="dropdown-item" href="https://www.zalora.co.id/lifestyle/elektronik/?from=header">Elektronik</a></li>
+          <li><a class="dropdown-item" href="https://www.zalora.co.id/lifestyle/alat-tulis-seni/?from=header">Alat tulis dan seni</a></li>
+          <li><a class="dropdown-item" href="https://www.zalora.co.id/lifestyle/dekorasi-rumah/?from=header">Home Decoration</a></li>
+          <li><a class="dropdown-item" href="https://www.zalora.co.id/lifestyle/mainan-hobi/?from=header">Mainan dan Hobi</a></li>
+        </ul>
+      </div>
+  </center><br/>
+  
+  <!--carousel-->
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+
+  <!--carousel inner-->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="clothes-gab67540b0_1280.jpg" class="d-block w-100" alt="..." width="200" height="700">
+    <div class="carousel-caption d-none d-md-block">
+      <h5><a href= "https://www.zalora.co.id" target="_blank" ><button type="button" class="btn btn-secondary btn-lg">Visit Our Website!</button></h5></a>
+      <p> Find yourself in it</p>
+    </div>
+  </div>
+          
+    <div class="carousel-item">
+        <img src="business-owner-working-with-boxes.jpg" class="d-block w-100" alt="..." width="200" height="700">
+      <div class="carousel-caption d-none d-md-block">
+    </div>
+  </div>
+  
+    <div class="carousel-item">
+        <img src="HERO_STATIC.GIF" class="d-block w-100" alt="..." width="200" height="700">
+      <div class="carousel-caption d-none d-md-block">
+    </div>
+  </div>
+
+  </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <center>
+    <!--GIF-->
+    <image src="zaloragif.GIF" width="300"></image></center><br/>
+      
+  <center>
+    <!--card-->
+    <div class="card" style="width: 90rem;">
+      <div class="card-body">
+        <h1 class="display-4">About Us</h1>
+        <p class="lead"> 
+          ZALORA Indonesia didirikan pada tahun 2012. Saat ini, ZALORA Indonesia merupakan retail online fashion dengan
+          perkembangan paling pesat di Asia. Situs di setiap negara memastikan bahwa produk fashion disesuaikan dengan selera negara
+          masing-masing dan mengadaptasi preferensinya. Dengan pilihan lebih dari 500 brand lokal dan internasional, kami membawa 
+          fashion ke dalam dimensi yang lebih baik dari sebelumnya. Kami menawarkan <a href="https://www.zalora.co.id/women/pakaian/?from=header" class="link-danger">pakaian wanita</a>,
+          <a href="https://www.zalora.co.id/men/pakaian/?from=header" class="link-danger">pakaian pria</a>, <a href="https://www.zalora.co.id/women/sepatu/?from=header" class="link-danger">sepatu</a>, 
+          <a href="https://www.zalora.co.id/women/pakaian/?from=header" class="link-danger">
+          aksesoris</a> <a href="https://www.zalora.co.id/sports/?from=header" class="link-danger">perlengkapan olahraga</a>, <a href="https://www.zalora.co.id/women/baju-muslim/?from=header" class="link-danger">busana muslim</a>, 
+          dan banyak lagi! Hal inilah yang membuat kami menjadi tujuan utama fashion online di Indonesia. Hanya dalam beberapa tahun,
+          kami telah merevolusi skena mode di Asia, dimulai dari kebiasaan berbelanja Anda hingga membentuk gaya personal Anda. Lebih 
+          dari 30.000 produk online dan ratusan produk baru setiap minggunya, kami sangat ambisius dan akan terus berkembang. Kabar baiknya 
+          adalah, kami memberikan Anda banyak sekali pilihan untuk tetap menjadi seseorang yang stylish. Kami adalah sarana penyedia fashion 
+          yang diimbangi dengan teknologi terkini yang akan memberikan Anda pengalaman berbelanja online yang tak tertandingin. Mengapa 
+          berbelanja di tempat lain ketika ZALORA adalah toko fashion online yang melayani segala keperluan fashion Anda. Hubungi kami 
+          melalui <a href="https://web.facebook.com/ZaloraIndonesia?_rdc=1&_rdr" class="link-primary">Facebook</a>, ikuti <a href="https://twitter.com/ZALORA" class="link-primary">Twitter</a>atau <a href="https://www.instagram.com/zaloraid/" 
+          class="link-primary">Instagram</a> untuk informasi terbaru seputar fashion dan tren terkini.
+            
+    <br/>Temukan ribuan brand lokal dan internasional original dan berkualitas untuk melengkapi kebutuhan fashion Anda. Jika 
+         nanti pesanan tidak memuaskan Anda, nikmati gratis 30 hari pengembalian dengan mudah di seluruh Indonesia.</p>
+  </div>
+</div></center><br/>
+      
+<center>
+  <h1>OUR BEST PRODUCT</h1></center>
+    <hr/>
+<center>
+  <!--card-->
+  <div class="card mb-3" style="max-width: 1500px;">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="elegant-asian-woman-white-dress-looking-camera-confident-chinese-woman-hat-holding-leather-jacket.jpg" class="img-fluid rounded-start" alt="" width="400">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h4 class="card-title">Korean Fashion</h4>
+          <p class="card-text">Selain lewat musik, drama, dan makanan, temukan juga semangat lain K-POP dalam style bernuansa K-Fashion yang bernuansa cute dan chic</p>
+            <div class="d-grid gap-2 col-6 mx-auto">
+            <button class="btn btn-secondary" type="button">Shop Here!</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div></center>
+      
+<center> 
+  <!--card-->
+  <div class="row row-cols-1 row-cols-md-2 g-4" style="max-width: 1400px;">
+    <div class="col">
+      <div class="card">
+        <div class="card-body">
+          <center>
+          <h4 class="card-title">Sport Luxe</h4>
+          <p class="card-text">Pastikan anda merasa nyaman namun tetap fashionable saat melakukan olahraga atau rangkaian outdoor activities dengan pilihan koleksi sport brands di ZALORA</p></center><br/>
+            <div class="d-grid gap-2 col-6 mx-auto">
+              <button class="btn btn-secondary" type="button">Shop Here!</button>
+            </div><br/>
+              <img src="sportsman-listening-music-training-with-weights.jpg" class="card-img-bottom" alt="" style="max-width: 500px;">  
+            </div>
+          </div>
+        </div>
+    <div class="col">
+      <div class="card"><br/>
+      <center>
+        <img src="cyclist-sunny-day-bike-adventure-travel-photo.jpg" class="card-img-top" alt="" style="max-width: 500px;"></center>
+          <div class="card-body">
+          <center>
+            <h4 class="card-title">Travelling Fits</h4>
+            <p class="card-text">Saat jalan-jalan, penting unntuk berpenampilan fashionable tapi tetap memperhatikan kenyamanan berpakaian, bisa dengan sneakers atau travel bag yang stylish</p></center><br/>
+          <div class="d-grid gap-2 col-6 mx-auto">
+          <button class="btn btn-secondary" type="button">Shop Here!</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</center><br/>
+    
+<center>
+  <!--iframe-->
+  <iframe src="https://www.youtube.com/embed/pdo0wgDOfE8"height="400" width="700" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+
+  <!--footer-->
+  <footer>
+    <div class="footer-content">
+      <h3>Thanks for visiting ZALORA</h3>
+      <p>Sebagai Pusat Fashion Online di Asia, kami menciptakan kemungkinan- kemungkinan<br/> 
+         gaya tanpa batas dengan cara memperluas jangkauan produk, mulai dari produk internasional 
+         hingga produk lokal dambaan. <br/> Kami menjadikan Anda sebagai pusatnya.
+         <span>Bersama ZALORA, You Own Now.</span></p>
+      </div>
+    <div class="footer-bottom">
+      <p>Tugas 1 lab 1 pemograman web</p>
+    </div>
+  </footer>
+         
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</html>
