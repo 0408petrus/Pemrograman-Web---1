@@ -1,0 +1,10 @@
+body{
+
+    background-color: rgb(176, 219, 230);
+    opacity: 100%;
+}
+#navbarNav .navbar-nav a:hover {
+    background-color: rgb(24, 129, 32);
+    border-radius: 5px;
+    transition:  ease-in-out 0.2s;
+}

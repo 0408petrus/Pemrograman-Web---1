@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Aleo&family=Alice&family=Amiri:ital@1&family=Arima+Madurai&family=Audiowide&family=Bree+Serif&family=Coustard&family=EB+Garamond:wght@600&family=El+Messiri:wght@400;500&family=Lobster+Two&family=Merienda:wght@700&family=PT+Serif&family=Pacifico&family=Philosopher:wght@400;700&family=Poppins&family=Righteous&family=Silkscreen&family=Source+Serif+Pro&family=ZCOOL+XiaoWei&family=Zilla+Slab:wght@500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-brand {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 25px;
+}
+
+#carouselExampleCaptions {
+    margin-top: 63px;
+}
+
+
+.JudulTambahan {
+    color: black;
+    font-family: 'Philosopher', sans-serif;
+    font-weight: 600;
+}
+
+.DescTambahan {
+    color: black;
+    font-family: 'Philosopher', sans-serif;
+    font-weight: 600;
+}
+
+section#MainHomeDevice .ShortDescription {
+    padding-bottom: 100px;
+    text-align: center;
+    color: rgb(233, 233, 233);
+    width: 45%;
+}
+  
+section#MainHomeDevice .ShortDescription h3{
+    font-family: 'Philosopher', sans-serif;
+    font-size: 20px;
+}
+  
+section#MainHomeDevice .ShortDescription p {
+    font-family: 'PT Serif', serif;
+    padding-top: 3%;
+    padding-bottom: 10%;
+    font-size: 15px;
+    line-height: 25px;
+}
+  
+section#MainHomeDevice .ShortDescription a {
+    text-decoration: none;
+    font-family: 'Philosopher', sans-serif;
+    color:rgb(233, 233, 233); 
+    font-size: 15px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: rgb(3, 10, 150);
+}
+  
+section#MainHomeDevice .ShortDescription a:hover {
+    background-color: rgb(8, 13, 105);
+}
+
+.item1:hover {
+    background-color: rgb(4, 61, 125);
+    border-radius: 10px;
+}
+
+
+#PenawaranSingkat  {
+    margin-top: 100px;
+    font-family: 'Philosopher', sans-serif;
+}
+
+.selengkapnya {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.payment {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#payment {
+    background-color: rgb(230, 230, 230);
+    padding-bottom: 100px;
+}
+
+#footer {
+    background-color:rgb(57, 120, 192) ;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    color: #fff;
+    font-family: 'Philosopher', sans-serif;
+}
+

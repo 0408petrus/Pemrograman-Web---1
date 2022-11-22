@@ -1,0 +1,22 @@
+
+h1{
+    width:auto;
+    background:#002418;
+    background-position: center;
+    text-align:center;
+    color:white;
+    text-shadow:0 0 4px #68b351,
+                0 0 4px #68b351,
+                0 0 8px #68b351,
+                0 0 8px #68b351,
+                0 0 40px #68b351,
+                0 0 40px #68b351,
+                0 0 40px #68b351,
+                0 0 80px #68b351,
+                0 0 80px #68b351,
+                0 0 80px #68b351;
+    font-family:cursive;
+    font: size 10px;
+    border-radius:10%;
+    box-shadow:0 0 30px 0 white;
+}

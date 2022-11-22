@@ -1,0 +1,40 @@
+/*-----------------------------------------*/
+                /*Navbar*/
+#navbarNavDropdown .navbar-nav a:hover{
+    background-color: white;
+    border-radius: 5px;
+    transition:  ease-in-out 0.2s;
+}
+/*-----------------------------------------*/
+
+/*-----------------------------------------*/
+                /*CSS Card*/
+
+.bagian-1{
+    margin-top: 35px;
+    border: solid;
+    border-radius: 5px;
+    padding: 20px;
+    font-family: Rockwell, sans-serif;
+}
+
+.bagian-2{
+    margin-top: 35px;
+    border: solid;
+    border-radius: 5px;
+    padding: 20px;
+    font-family: Rockwell, sans-serif;
+    margin-bottom: 200px;
+}
+
+.bagian-3{
+    border: solid;
+    border-radius: 5px;
+    padding: 20px;
+    font-family: Rockwell, sans-serif;
+    margin-bottom: 20px;
+}
+.teks{
+    text-align: left;
+}
+/*-----------------------------------------*/

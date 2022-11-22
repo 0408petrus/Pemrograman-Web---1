@@ -1,0 +1,990 @@
+/*
+    color scheme
+    canon gold : #ffd72d
+    aesthetic gold : #ffe535
+    royal purple : rgb(111, 19, 192)
+    moderate black: #212529
+    scarlet : #fc1b5c
+    yellowhite : rgb(255, 247, 232)
+
+*/
+
+/*hide all horizontal overflow, only reveal scrollbar when scrolled*/
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Trueno';
+    background-color: rgb(223, 227, 234);
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+/*class to help specify colors*/
+.text-black {
+    color: black;
+}
+
+.text-white {
+    color: white;
+}
+
+.remove-cursor {
+    cursor: default;
+}
+
+/*overrides bootstrap fonts and font color on hover*/
+#nav-links {
+    font-family: 'Trueno';
+}
+
+#navlink-hover:hover {
+    color:rgb(32, 32, 32)
+}
+
+/*css for logo hover*/
+#logo-hover {
+    opacity: 1;
+    transition: 0.15s ease-in-out;
+}
+
+#logo-hover:hover {
+    opacity: 0.75;
+}
+
+/*css for upcoming games section on LANDING PAGE*/
+#upcominggames-title {
+    font-family : Neue;
+    font-size: 120px;
+
+    text-shadow: -4px -4px 0px #ffe535;
+
+    margin-left: 35px;
+    margin-top: 35px;
+
+    transition: 0.35s ease-in-out;
+}
+
+/*the pattern for our games section*/
+#bgpattern1 {
+    background-image: url("./img/pattern1.png");
+    background-size: 30%;
+    background-repeat: repeat-y;
+    background-position: 0% 0%;
+    background-origin: content-box;
+}
+
+/* #upcominggames-title:hover {
+    scale: 1.05;
+    margin-left: 45px;
+    text-shadow: -6px -6px 8px #ffe435a0;
+
+    z-index: 5;
+} */
+
+#upcominggames-row {
+    min-height: 65vh;
+    position: relative;
+}
+
+/* div to control carousel position and size */
+#carousel-upcominggames {
+    max-width: 65%;
+    
+    margin-top: 60px;
+    margin-left: 200px;
+
+    box-shadow: -10px -10px #ffe535;
+    
+}
+
+/*div to extend the carousel's shadow*/
+#carousel-shadow{
+    width: 31.2%;
+    height: 54.25%;
+    background-image: linear-gradient(90deg, #ffe535, rgb(105, 24, 205));
+    margin: 0;
+    padding: 0;
+    top: 50px;
+    left: 70.5%;
+    position: absolute;
+}
+
+#shadow-img {
+    width: 100%;
+    height: 100%;
+    background-image: url("./img/jesh.png");
+    background-size: cover;
+}
+
+/*bg div for bottom gradient background*/
+#upcominggames-bg {
+    width: 100%;
+    height: 35%;
+    background-image: linear-gradient(315deg, rgb(105, 24, 205), #efdd3a);
+    position: absolute;
+    bottom: 0;
+}
+
+#navbar-logobg {
+    height: 100%;
+    width: 3.75%;
+    background-color: #ffe535;
+    position: absolute;
+    top: 0;
+    
+}
+
+/*unused css*/
+#nav {
+    padding: 0;
+}
+
+#inner-nav {
+    padding: 8px;
+}
+
+#featured-game-row {
+    width: 100%;
+    min-height: 750px;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+#featured-title {
+    margin-top: 225px;
+    margin-left: 28%;
+    font-family: Neue;
+    font-size: 100px;
+    text-shadow: -3px 0px #ffe535;
+}
+
+#featured-footer {
+    font-family: 'Trueno';
+    width: 100%;
+    height: 400px;
+    background-color: #212529;
+    position: absolute;
+    bottom: 0;
+    overflow: hidden;
+    box-shadow: -8px 10px #ffe535;
+}
+
+#featured-premise {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    left: 48%;
+    top: 17%;
+    padding: 20px;
+    text-align: justify;
+    max-width: 47.5%;
+    text-justify: inter-word;
+}
+
+#featured-img {
+    width: 45%;
+    height: 100%;
+    position: absolute;
+    background-image: url("./img/salvationposter.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#premise-span {
+    font-size: 36px;
+    font-family: Neue;
+    letter-spacing: 2px;
+    color: #212529;
+    position: absolute  ;
+    left: 49.25%;
+    border-left: 6px solid white;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-right: 100px;
+    top: 5.5%;
+    margin: 0;
+    text-align: justify;
+    max-width: 47.5%;
+    text-justify: inter-word;
+    background-color: #ffe535;
+    transition: 0.25s ease-in-out;
+}
+
+#premise-span:hover {
+    border-left: 12px solid white;
+}
+
+.no-overflow {
+    overflow: hidden;
+}
+
+.spacer {
+    width: 100vw;
+    height: 45vh;
+}
+
+.bolden {
+    font-weight: 1000;
+}
+
+#whoarewe {
+    height: 700px;
+}
+
+#bg-text {
+    font-family: MyrianAncient;
+    font-size: 28px;
+    position: absolute;
+    z-index: -2;
+    color: #ffbb8e39;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+}
+
+#whoarewe-exp {
+    position: relative;
+    padding-left: 45px;
+    padding-top: 50px;
+    text-align: justify;
+}  
+
+#text-block {
+    width: 120%;
+    height: 40%;
+    background-color: #ffe535;
+    position: absolute;
+    z-index: -1;
+    top: 22.5%;
+    left: 3.5%;
+    border-left: 8px solid black;
+}
+
+#whoarewe-img {
+    position: relative;
+}
+
+#carousel-container {
+    top: 5%;
+    left: 15%;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+}
+
+#whoarewe-title {
+    font-family: Neue;
+    font-size: 100px;
+    letter-spacing: 6px;
+    text-shadow: -5px 0px #ffe535;
+}
+
+#whoarewe-content {
+    font-family: Trueno;
+    font-size: 22px;
+    text-align: justify;
+}
+
+#decor-block {
+    position: absolute;
+    width: 75%;
+    height: 45%;
+    left: 12.5%;
+    top: 2%;
+    background-color: rgb(112, 38, 223);
+
+    background-size: cover;
+}
+
+#counting {
+    font-family: Neue;
+    font-size: 36px;
+    letter-spacing: 3px;
+    border-left: 8px solid black;
+    padding-left: 10px;
+    width: 40%;
+    position: relative;
+    left: -2.5%;
+    top: 8%;
+    padding-top: 2px;
+    background-color: #ffe535;
+}
+
+#footer {
+    height: 25vh;
+    width: 100%;
+    background-color: #212529;
+    bottom: 0;
+    overflow: hidden;
+    color: white;
+}
+
+#footer-logo {
+    position: relative;
+    top: 20%;
+    left: 20%;
+}
+
+#footer-links {
+    color: white;
+    font-family: Trueno;
+    font-size: 12px;
+    position: relative;
+    height: 100px;
+    border-bottom: 0.5px solid rgb(134, 134, 134);
+    margin: 0px 20px;
+    margin-top: 5px;
+}
+
+#footer-nav {
+    position: relative;
+    top: 25%;
+    font-size: 14px;
+    font-family: Righteous;
+    letter-spacing: 3px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 35px;
+    margin-left: 0;
+    /* border-left: 3px solid rgb(245, 245, 245); */
+}
+
+.footer-navlink {
+    display: inline-block;
+    padding-right: 40px;
+}
+
+.footer-navlink > a {
+    font-style: normal;
+    text-decoration: none;
+    color: rgb(172, 172, 172);
+    transition: 0.15s ease-in-out;
+}
+
+.footer-navlink > a:hover {
+    font-style: normal;
+    text-decoration: none;
+    color: white;
+}
+
+#copyright {
+    position: relative;
+    left: 40%;
+    top: 40%;
+    font-family: Righteous;
+    color: rgb(172, 172, 172); 
+}
+
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: greenyellow;
+}
+
+/*for layering*/
+.layer1{
+    z-index: 5;
+}
+
+.layer2 {
+    z-index: 3;
+}
+
+.layer3 {
+    z-index: 1;
+}
+
+/* override bootstrap */
+.dropdown-menu {
+    border-radius: 2px !important;
+}
+
+.overridecarousel {
+    max-height: 27% !important;
+    top: 35% !important;
+    right: 3.5% !important;
+    background-image: url("./img/circle.png") !important;
+    background-size: cover !important;
+}
+
+.dropdown-item:active {
+    background-color: #ffe535!important;
+    color: #212529 !important;
+}
+
+.active {
+    background-color: #ffe535!important;
+    color: #212529!important;
+}
+
+#error {
+    min-height: 80vh;
+    text-align: center;
+    font-family: Righteous;
+    padding-top: 10%;
+    color: rgba(0, 0, 0, 0.502);
+}
+
+#error h2 {
+    font-size: 80px;
+}
+
+#error p {
+    font-size: 20px;
+}
+
+#game-title {
+    height: 80vh;
+    background-color:rgb(255, 247, 232);
+    background-image: url("./img/salvationtitle.png");
+    background-size: cover;
+    shape-outside: url("./img/circle.png");
+    overflow: hidden;
+}
+
+#game-title > div {
+    max-height: 100%;
+}
+
+#game-title-poster {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.hovertext {
+    position: absolute;
+    z-index: 4;
+    color: white;
+    text-align: center;
+    height: 100%;
+    padding: 0!important;
+    margin: 0!important;
+    transition: 0.5s ease-in-out;
+}
+
+.hovertext > .hoverbg {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    background-image: linear-gradient(90deg, #ffe535, rgb(105, 24, 205));
+    z-index: -2;
+    transition: 0.5s ease-in-out;
+}
+
+.hovertext h4 {
+    opacity: 0;
+    padding-top: 25%;
+    font-family: Righteous;
+    z-index: 5;
+    transition: 0.35s ease-in-out;
+    text-shadow: 1px 1px #ffe535;
+}
+
+.hovertext p {
+    opacity: 0;
+    font-family: Inter;
+    z-index: 5;
+    transition: 0.35s ease-in-out;
+    text-shadow: 1px 1px #ffe535;
+}
+
+.hovertext:hover > h4 {
+    opacity: 1;
+}
+
+.hovertext:hover > p {
+    opacity: 1;
+}
+
+.hovertext:hover > .hoverbg {
+    opacity: 0.5;
+}
+
+#game-title-text {
+    font-family: BluuNext;
+    font-size: 40px;
+    color:rgb(32, 32, 32);
+    text-shadow: -4px 4px #ffe535;
+}
+
+#title-blurb > p {
+    font-size: 25px;
+    font-family: prociono;
+    text-align: justify;
+    width: 70%;
+    margin-top: 10%;
+    line-height: 42px;
+    z-index: 3;
+    text-shadow: -2px 2px rgba(0, 0, 0, 0.187);
+}
+
+#title-blurb > img {
+    max-height: 10%;
+    margin-top: 2vh;
+}
+
+#title-blurb a > button {
+    position: relative;
+    top: 5%;
+    font-family: patua;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 3px solid black;
+    border-radius: 8px;
+    padding: 5px 50px;
+    transition: 0.25s ease-in-out;
+}
+
+#title-blurb a > button:hover {
+    background-color: #000000;
+    color: #ffe535;
+}
+
+#salvation-body {
+    background-image: url("./img/bg.jpg");
+    min-height: 80vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.info {
+    height: 60vh;
+    margin-bottom: 25vh;
+}
+
+.info img {
+    max-width: 100%;
+    margin-top: 2%;
+}
+
+.info-blurb {
+    padding-right: 5%;
+    padding-top: 2%;
+}
+
+.info-blurb > h3 {
+    font-family: Patua;
+    font-size: 70px;
+}
+
+.info-blurb > p {
+    font-family: prociono;
+    font-size: 20px;
+    text-align: justify;
+}
+
+#aboutgame {
+    font-family: Patua;
+    font-size: 70px;
+    padding-top: 18vh;
+    padding-right: 4vw;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#char-profile {
+    height: 80vh;
+    background-color: #212529;
+}
+
+
+
+
+
+
+
+/* animation */
+
+
+
+
+
+
+
+/* external css */
+.pulse:hover, 
+.pulse:focus {
+  animation: pulse 1s;
+  box-shadow: 0 0 0 2em transparent;
+}
+
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 0 var(--hover); }
+}
+
+.hbtn {
+    position: relative;
+    letter-spacing: 2px;
+    box-sizing: border-box;
+    display: inline-block;
+    overflow: hidden;
+    margin-top: 0;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(235, 235, 235);
+    white-space: nowrap;
+    z-index: 0;
+} 
+
+.hbtn-active {
+    position: relative;
+    letter-spacing: 2px;
+    box-sizing: border-box;
+    display: inline-block;
+    overflow: hidden;
+    margin-top: 0;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(255, 219, 42);
+    white-space: nowrap;
+    z-index: 0;
+}
+
+.hbtn:hover {
+    color: rgb(0, 0, 0);
+}
+
+.hbtn i {
+    padding-right: 8px;
+} 
+
+
+.hb-fill-bottom::before {
+    position: absolute;
+    content: "";
+    background: rgb(255, 219, 42);
+    transition-duration: 0.3s;
+    z-index: -1;
+    inset: 0px auto auto 0px;
+    width: 100%;
+    height: 0px;
+    opacity: 1;
+} 
+
+
+.hb-fill-bottom:hover::before {
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+} 
+
+
+.hb-fill-bottom:hover {
+    color: rgb(0, 0, 0);
+    background: rgb(212, 212, 212);
+    transition: color 0.3s ease 0s, background 0s ease 0.3s;
+} 
+
+
+/* for dynamic buttons */
+.spbutton {
+  background: transparent; outline: none;
+  width: 70%;
+  margin-left: 45px;
+  margin-top: 20px;
+  position: relative;
+  color: #212529;
+  border: 3px solid #212529;
+  padding: 15px 50px;
+  font-size: 18px;
+  overflow: hidden;
+}
+
+.spbutton3 {
+    background: transparent; outline: none;
+    width: 70%;
+    top: 10%;
+    margin-top: 0;
+    margin-left: 0;
+    left: -2.5%;
+    position: relative;
+    color: #212529;
+    border: 4px solid #212529;
+    padding: 15px 50px;
+    font-size: 18px;
+    overflow: hidden;
+    transition: 0.3s ease-in-out;
+}
+
+.spbutton:hover:before{
+  opacity: 1; 
+  transform: translate(0,0);
+}
+
+.spbutton:before{
+  content: attr(data-hover);
+  position: absolute;
+  top: 1.1em; 
+  left: 0;
+  width: 100%;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 800;
+  font-size: .8em;
+  opacity: 0;
+  transform: translate(-100%,0);
+  transition: all .35s ease-in-out;
+  
+}
+
+.spbutton div{
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 800;
+  font-size: .8em;
+  transition: all .35s ease-in-out;
+}
+
+.spbutton:hover div{
+  opacity: 0; 
+  transform: translate(100%,0)
+}
+
+.spbutton2 {
+    position: absolute;
+    top: 78%;
+    left: 48.9%;
+    display:block;
+    height: 50px;
+    width: 160px;
+
+    margin: 10px 7px;
+    padding: 5px 5px;
+
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 2px;
+
+    color: #ffffff;
+
+    border: 2px #ffffff solid;
+    border-radius: 4px;
+
+    text-transform: uppercase;
+
+    outline: 0;
+    overflow:hidden;
+    background: none;
+
+    z-index: 1;
+
+    box-shadow: -3px 3px white;
+
+    cursor: pointer;
+    transition:         0.08s ease-in;
+    -o-transition:      0.08s ease-in;
+    -ms-transition:     0.08s ease-in;
+    -moz-transition:    0.08s ease-in;
+    -webkit-transition: 0.08s ease-in;
+}
+
+
+.arrow{
+    text-align:left;
+    padding-left:17px;
+}
+  
+.arrow:before{
+    content:"→";
+    position:absolute;
+    color:#ffffff;
+    left: 83%;
+    opacity: 0;
+    transition: 250ms;
+    -webkit-transition: all 100ms cubic-bezier(0.680, -0.550, 0.265, 1.550); 
+}
+  
+.arrow:hover:before{
+    left:84%;
+    opacity:1;
+}
+  
+.arrow:hover {
+    width:185px;
+}
+
+#span{
+    position: relative;
+    display: inline-flex;
+    width: 180px;
+    height: 55px;
+    margin: 0 15px;
+    perspective: 1000px;
+  }
+
+#span a{
+    font-size: 19px;
+    letter-spacing: 1px;
+    transform-style: preserve-3d;
+    transform: translateZ(-25px);
+    transition: transform .25s;
+    font-family: 'Montserrat', sans-serif; 
+}
+
+#span a:before,
+#span a:after{
+    position: absolute;
+    content: "BUTTON";
+    height: 55px;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid black;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+#span a:before{
+    color: #fff;
+    background: #000;
+    transform: rotateY(0deg) translateZ(25px);
+}
+
+#span a:after{
+    color: #000;
+    transform: rotateX(90deg) translateZ(25px);
+}
+
+#span a:hover{
+    transform: translateZ(-25px) rotateX(-90deg);
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+*:focus,
+*:active {
+  outline: none !important;
+  -webkit-tap-highlight-color: transparent;
+}
+
+
+.wrapper {
+    display: inline-flex;
+    list-style: none;
+}
+
+.socials {
+    width: 30px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    opacity: 1;
+}
+
+.socials:hover {
+    opacity: 0;
+}
+
+.icon > a {
+    text-decoration: none;
+    color: white;
+}
+
+.wrapper .icon {
+    position: relative;
+    background: rgb(247, 247, 247);
+    border-radius: 50%;
+    padding: 15px;
+    margin: 10px;
+    top: 22px;
+    width: 20px;
+    height: 20px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+  
+.wrapper .tooltip {
+    position: absolute;
+    top: 0;
+    font-size: 10px;
+    font-family: Righteous;
+    background: #ffffff;
+    color: #ffffff;
+    padding: 3px 8px;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+  
+.wrapper .tooltip::before {
+    position: absolute;
+    content: "";
+    height: 8px;
+    width: 8px;
+    background: #ffffff;
+    bottom: -3px;
+    left: 50%;
+    transform: translate(-50%) rotate(45deg);
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+  
+.wrapper .icon:hover .tooltip {
+    top: -28.5px;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+  
+.wrapper .icon:hover span,
+.wrapper .icon:hover .tooltip {
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+  
+.wrapper .facebook:hover,
+.wrapper .facebook:hover .tooltip,
+.wrapper .facebook:hover .tooltip::before {
+    background: #1877F2;
+    color: #ffffff;
+}
+  
+.wrapper .twitter:hover,
+.wrapper .twitter:hover .tooltip,
+.wrapper .twitter:hover .tooltip::before {
+    background: #1DA1F2;
+    color: #ffffff;
+}
+  
+.wrapper .instagram:hover,
+.wrapper .instagram:hover .tooltip,
+.wrapper .instagram:hover .tooltip::before {
+    background: #E4405F;
+    color: #ffffff;
+}
+  
+.wrapper .github:hover,
+.wrapper .github:hover .tooltip,
+.wrapper .github:hover .tooltip::before {
+    background: #333333;
+    color: #ffffff;
+}
+  
+.wrapper .youtube:hover,
+.wrapper .youtube:hover .tooltip,
+.wrapper .youtube:hover .tooltip::before {
+    background: #CD201F;
+    color: #ffffff;
+}
+  
