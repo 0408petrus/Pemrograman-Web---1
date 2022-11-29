@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+	<title>Tugas 2 </title>
+
+    <!--Script JQuery-->
+    <script>
+        $(document).ready(function(){
+            // untuk text
+            $("#hide").click(function(){
+                $("#target").hide();
+            });
+            $("#show").click(function(){
+                $("#target").show();
+            });
+            $("#fadeOut").click(function(){
+                $("#target").fadeOut(1000);
+            });
+            $("#fadeIn").click(function(){
+                $("#target").fadeIn(1500);
+            });
+            $("#slideUp").click(function(){
+                $("#target").slideUp();
+            });
+            $("#slideDown").click(function(){
+                $("#target").slideDown();
+            });
+            $("#slideToggle").click(function(){
+                $("#target").slideToggle();
+            });
+            $("#animate").click(function() {
+                    $("#target").animate({paddingLeft: "+=15px"});
+            });
+            $("#resetAnimate").click(function() {
+                    $("#target").animate({paddingLeft: "0px"});
+            });
+
+            // untuk gambar 
+            $("#gambar").mouseenter(function(){
+                $("#gambar").animate({width:"300px"})
+            });
+            $("#gambar").mouseleave(function(){
+                $("#gambar").animate({width:"200px"})
+            });
+     
+        });
+    </script>
+    <!------->
+</head>
+<body>
+    <center><h3 id="Judul">Tekan Tombol Untuk Melihat Efek</h3></center>
+    <center>
+        <p id="target">Belajar & Bermain </p>
+
+        <button id="hide" style="color: rgb(0, 0, 0)">Hide</button>
+        <button id="show" style="color: rgb(0, 0, 0)">Show</button>
+        <button id="fadeOut" style="color: rgb(0, 0, 0)">Fade-Out</button>
+        <button id="fadeIn" style="color: rgb(0, 0, 0) ">Fade-In</button>
+        <button id="slideUp" style="color: rgb(0, 0, 0) ">Slide Up</button>
+        <button id="slideDown" style="color: rgb(0, 0, 0) ">Slide Down</button>
+        <button id="slideToggle" style="color: rgb(0, 0, 0) ">Slide Toggle</button>
+        <button id="animate" style="color: rgb(0, 0, 0) ">Animate</button>
+        <button id="resetAnimate" style="color: rgb(0, 0, 0) ">Reset Animate</button>
+    </center>
+
+   <center> <h4>Efek Animasi Gambar (Arahkan Kursor Ke Gambar)</h4> </center>
+    <center><img src="naruto.jpeg" id="gambar" width="180" height="250"></center>
+	
+</body>
+</html>
