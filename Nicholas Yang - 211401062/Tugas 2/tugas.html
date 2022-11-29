@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="hide">Hide</button>
+    <button id="show">Show</button>
+    <button id="fadein">Fade In</button>
+    <button id="fadeout">Fade Out</button>
+    <button id="slideDown">Slide Down</button>
+    <button id="slideUp">Slide Up</button>
+
+    <p>Tulisan akan hilang dan muncul sesuai dengan tombol</p>
+    <!--Jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#hide").click(function(){
+                $("p").hide();
+            });
+            $("#show").click(function(){
+                $("p").show();
+            });
+            $("#fadein").click(function(){
+                $("p").fadeIn("slow");
+            });
+            $("#fadeout").click(function(){
+                $("p").fadeOut("fast");
+            });
+            $("#slideDown").click(function(){
+                $("p").slideDown();
+            });
+            $("#slideUp").click(function(){
+                $("p").slideUp();
+            });
+        });
+    </script>
+</body>
+</html>
