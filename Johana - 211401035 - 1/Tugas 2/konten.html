@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+    <title>Johana</title>
+    <link rel="icon" type="image/x-icon" href="ghibli-museum-anime-studio-ghibli-animation-totoro-ad8cd6e6d55859e55bcbd685a53a1b26.png">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styleku.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <script>
+      $ (document).ready(function(){
+          $("#hide").click(function(){
+              $("p").hide();
+          });
+          $("#show").click(function(){
+              $("p").show();
+          });
+          $("#fadein").click(function(){
+              $("h2").fadeIn(500);
+          });
+          $("#fadeout").click(function(){
+              $("h2").fadeOut(500);
+          });
+      });
+  </script>
+  <script>
+      $(document).ready(function(){
+          $("p").on({
+              mouseenter: function(){
+                  $(this).css("background-color","moccasin");
+              },
+              mouseleave: function(){
+                  $(this).css("background-color","lavender");
+              },
+              click: function(){
+                  $(this).css("background-color","darksalmon");
+              },
+          });
+      });
+  </script>
+  </head>
+
+  <body class="p-3 m-0 border-0 bd-example">
+       <!--Navbar-->
+    <nav class="navbar navbar-expand-lg bg-light ">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="beranda.html"> <img src="ghibli-museum-anime-studio-ghibli-animation-totoro-ad8cd6e6d55859e55bcbd685a53a1b26.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="beranda.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="konten.html">Konten</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portofolio.html">Portofolio</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--end of navbar-->
+
+<br> 
+<h2 class="text-center"> Studio Ghibli Present </h2>
+<p>ini adalah jquery show dan hide</p>
+<button id="hide">Hide</button>
+<button id="show">Show</button>
+<button id="fadein">Fade in title</button>
+<button id="fadeout">Fade out title</button>
+<br>
+<br>
+<br>
+<!--Grid and Card-->
+<div class="container text-center">
+      <div class="card">
+        <a href="#satu">
+      <img src="myneighbortotoro.jpg" >
+        <div class="img-title"><h5> My Neighbor Totoro</h5>
+          </div>
+        <div class="overlay" id="satu">
+          <img src="myneighbortotoro.jpg"  alt="">
+        </div> 
+        </a>
+      </div>
+      <div class="card">
+      <img src="spiritedaway.jpg" >
+        <div class="img-title"><h5> Spirited Away</h5>
+      </div>
+      </div>
+      <div class="card">
+      <img src="Princesskaguya.jpg" >
+        <div class="img-title"><h5>Princess Kaguya</h5>
+          </div>
+      </div>
+      <div class="card">
+      <img src="thewindrises.jpg" >
+        <div class="img-title"><h5>The Wind Rises</h5>
+          </div>
+      </div>
+
+</div>
+<!--end of Grid and Card-->
+</br>
+<!--Scrollspay with list grup-->
+    <div class="row">
+      <div class="col-4">
+        <div id="list-example" class="list-group">
+          <a class="list-group-item list-group-item-action" href="#list-item-1">My Neighbor Totoro</a>
+          <a class="list-group-item list-group-item-action" href="#list-item-2">Sprited Away</a>
+          <a class="list-group-item list-group-item-action" href="#list-item-3">Princess Kaguya</a>
+          <a class="list-group-item list-group-item-action" href="#list-item-4">The Wind Rises </a>
+        </div>
+      </div>
+      <div class="col-8">
+        <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+          <h4 id="list-item-1"class="bg-success p-2" style="--bs-bg-opacity: .5;">My Neighbor Totoro</h4>
+          <p >Directed by Hayao Miyazaki </p> 
+           <p> When you need a friend, Totoro is waiting!
+            Two young girls, Satsuki and Mei, have moved with their father into a new home in the country, while their mother recovers from illness in a nearby hospital. To their surprise, they soon discover that they share this home with some rather unusual creatures and even stranger neighbours - forest guardians that the girls dub Totoro. When trouble occurs, their new friends will help them rediscover hope.</p>
+          <h4 id="list-item-2"class="bg-success p-2" style="--bs-bg-opacity: .5;">Spirited Away</h4>
+          <p>Hayao Miyazaki’s Academy Award®-winning masterpiece returns to cinemas for a limited time in celebration of its 20th Anniversary.
+            Chihiro thinks she is on another boring trip with her parents. But when they stop at a village that is not all that it seems, her parents undergo a mysterious transformation, and Chihiro is whisked into a world of fantastic spirits, shape-shifting dragons and a witch who never wants to see her leave. She must call on the courage she never knew she had to free herself and return her family to the outside world.
+            The second biggest box office hit of all time in Japan, Spirited Away helped redefine the possibilities of animation for Western audiences and a generation of new filmmakers.
+            Combining Japanese mythology with Alice in Wonderland-type whimsy, Spirited Away cemented Miyazaki’s reputation as an icon of animation and storytelling.
+            </p>
+          <h4 id="list-item-3"class="bg-success p-2" style="--bs-bg-opacity: .5;">Princes Kaguya</h4>
+          <p>Isao Takahata's retelling of the oldest recorded Japanese narrative is a visionary tour de force." - VARIETY
+            Found inside a shining stalk of bamboo, a tiny girl grows into an exquisite young lady, raised by an old bamboo cutter and his wife. From the countryside to the grand capital city, even unseen she enthralls all who encounter her, including five noble suitors. Ultimately she must face her fate, punishment for her crime.</p>
+          <h4 id="list-item-4"class="bg-success p-2" style="--bs-bg-opacity: .5;">The Wind Rises</h4>
+          <p>Hayao Miyazaki's final masterpiece!
+            Jiro dreams of flying and designing beautiful airplanes, inspired by the famous Italian aeronautical designer Caproni. Nearsighted and unable to be a pilot, he becomes one of the world's most accomplished airplane designers, experiencing key historical events in an epic tale of love, perseverance and the challenges of living and making choices in a turbulent world.</p>
+        </div>
+      </div>
+    </div>
+<!--end of Scrollspay with list grup-->
+
+<!--Pagenation-->
+    <nav aria-label="Page navigation example">
+      <ul class="pagination">
+        <li class="page-item">
+          <a class="page-link" href="beranda.html" aria-label="Previous">
+            <span aria-hidden="true">&laquo;</span>
+          </a>
+        </li>
+        <li class="page-item"><a class="page-link" href="beranda.html">1</a></li>
+        <li class="page-item"><a class="page-link" href="konten.html">2</a></li>
+        <li class="page-item"><a class="page-link" href="portofolio.html">3</a></li>
+        <li class="page-item">
+          <a class="page-link" href="portofolio.html" aria-label="Next">
+            <span aria-hidden="true">&raquo;</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+<!--end pagenation-->
+</body>
+</html>
