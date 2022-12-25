@@ -1,0 +1,41 @@
+.website {
+    background-color: aqua;
+}
+.isian {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    font-size: 18px;
+    border: 1px solid black;
+    background-color: blanchedalmond;
+}
+
+section .col .card:hover .card-img-top{
+    transform: scale(1.1);
+}
+.judul {
+    margin-top: 10px;
+    font-size: 35px;
+    margin-bottom: 40px;
+    font-weight: 400;
+    color: #80489C;
+}
+.footer {
+    background-color: gray;
+    color: darkblue;
+    height: 180px;
+    padding: 40px;
+}
+.footer-logo {
+    float: left;
+    font-size: 32px;
+}
+.footer-list {
+    float: right;
+}
+.footer-list li {
+    padding-bottom: 20px;
+}
