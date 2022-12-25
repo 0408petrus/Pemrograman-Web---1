@@ -52,21 +52,21 @@ textarea {
     background-color: blanchedalmond;
     color: gray;
   }
-.footer {
-    background-color: gray;
-    color: white;
-    height: 180px;
-    padding: 40px;
-}
-.footer-logo {
-    float: left;
-    font-size: 32px;
-}
-.footer-list {
-    float: right;
-}
-.footer-list li {
-    padding-bottom: 20px;
-}
+	.footer {
+	    background-color: gray;
+	    color: white;
+	    height: 180px;
+	    padding: 40px;
+	}
+	.footer-logo {
+	    float: left;
+	    font-size: 32px;
+	}
+	.footer-list {
+	    float: right;
+	}
+	.footer-list li {
+	    padding-bottom: 20px;
+	}
 
 
