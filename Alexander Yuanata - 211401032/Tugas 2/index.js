@@ -15,8 +15,29 @@ let black = "#000000"
 
 let len = clr_range.length+1;
 
+let init = 0;
+const max = 8;
+
 $(document).ready(function(){
     console.log("ready");
+
+    $("#zoomin").click(function(){
+        if (init < max){
+            $("#img").animate({
+                width : "+=10%",
+            });
+            init++
+        }
+    });
+
+    $("#zoomout").click(function(){
+        if(init > 0){
+            $("#img").animate({
+                width : "-=10%"
+            });
+            init--;
+        }
+    });
 
     $("#hide").click(function(){
         if(hide_toggle){

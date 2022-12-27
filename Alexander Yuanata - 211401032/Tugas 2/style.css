@@ -26,4 +26,38 @@ button:hover {
   height: 100%;
 }
 
+#demo {
+  width: 80vw;
+}
 
+#imgd {
+  background-color: rgb(12, 219, 26);
+  max-width: 100%;
+  max-height: 50%;
+  position: relative;
+  overflow: hidden;
+}
+
+#imgd > img {
+  width: 100%;
+}
+
+#zoombtn {
+  position: absolute;
+  bottom: 0;
+  left: 1vw;
+  bottom: 1vh;
+}
+
+#zoombtn button {
+  background-color: white!important;
+  border: 0px solid black!important;
+  border-radius: 3px!important;
+  width: 4vw;
+  height: 4vw;
+  font-size: 30px;
+}
+
+#zoombtn button:hover {
+  background-color: rgb(255, 146, 12)!important;
+}

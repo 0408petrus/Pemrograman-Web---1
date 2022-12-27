@@ -1,0 +1,43 @@
+/* Login Page */
+body
+{
+    background: url('../img/burger_background.jpg')no-repeat center fixed;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size: cover;
+}
+
+/* Card */
+#card
+{
+    padding-top: 50px;
+    width: 18rem;
+    box-shadow: 2px 2px 4px #333;
+}
+
+/* Form Login */
+#form-login
+{
+    padding-top: 90px;
+}
+
+/* Form Logo */
+#form-logo
+{
+    width: 50%;
+    height: 50%;
+    padding-top: 10px;
+}
+
+/* Desc Form */
+#desc-form
+{
+    font-size: 13px;
+}
+
+/* Button Login */
+#button-login
+{
+    padding-top: 10px;
+}
