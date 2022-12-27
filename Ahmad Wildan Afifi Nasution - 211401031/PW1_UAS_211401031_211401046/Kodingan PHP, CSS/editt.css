@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Kalam&display=swap');
+
+#nav {
+    background-color: green;
+    background-size: cover;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    height: 3em;
+}
+
+
+h1 {
+    font-size: 37px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(./img/bgsiswa.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
+}
+
+form {
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-bottom: 50px;
+    font-family: 'Kalam', cursive;
+}
+
+td {
+   font-size: 200%; 
+   color: white;
+}
+
+input {
+    border-radius: 5px;
+    width: 300px;
+    padding: 10px 17px;
+    margin: 10px;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: 'Kalam', cursive;
+
+}
+
+#edit {
+    color: white;
+    background-color: transparent;
+    font-family: 'Kalam', cursive;
+    padding: 3px;
+}
+
+#edit:hover {
+    color: black;
+    background-color: white;
+}
+
+#button {
+    margin-left: 5%;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 3px 2px;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+#button:hover {
+    background-color: white;
+    color: black;
+}

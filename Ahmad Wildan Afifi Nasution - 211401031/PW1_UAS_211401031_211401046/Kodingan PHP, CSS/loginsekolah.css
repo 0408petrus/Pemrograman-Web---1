@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Kalam&family=Roboto+Slab&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(./img/Sekolah.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#nav {
+    background-color: green;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    height: 3em;
+}
+
+#form {
+    text-align: center;
+    margin-top: 200px;
+    font-size: 20px;
+    }
+
+#button {
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 3px 2px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+#button:hover {
+    background-color: white;
+    color: black;
+}
+
+p {
+    color: white;
+    font-family: 'Kalam', cursive;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-size: 30px;
+}
+
+h2 {
+    color: white;
+    font-family: 'Kalam', cursive;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-size: 60px;
+}
+
+h1 {
+    font-family: 'Roboto Slab', serif;
+}
