@@ -1,0 +1,36 @@
+ul li:hover {
+    background: #cbd18f;
+    transition: 0.5s;
+}
+
+ul li {
+    padding: 12px 0;
+    margin-left: 20px;
+}
+  
+ul {
+    margin-left: 38%;
+}
+
+th {
+    color: rgb(0, 0, 0);
+    font-family: 'Kalam', cursive;
+}
+
+td {
+    color: rgb(0, 0, 0);
+    font-family: 'Kalam', cursive;
+}
+
+caption {
+    color: rgb(0, 0, 0);
+    font-family: 'Kalam', cursive;
+    font-size: 30px;
+    margin-left: 5px;
+}
+
+table {
+    background-color: rgba(0, 0, 0, 0.234);
+    margin-top: 5%;
+}
+
