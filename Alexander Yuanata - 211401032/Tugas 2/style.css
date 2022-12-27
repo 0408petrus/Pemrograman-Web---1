@@ -1,0 +1,29 @@
+body {
+  overflow-x: hidden;
+}
+
+button {
+  border-radius: 3px;
+  border: 1.5px solid rgb(0, 0, 0) !important;
+  color: black;
+  font-family: Trueno;
+  transition: 0.3s;
+  font-weight: 500 !important;
+}
+
+button:hover {
+  border: 1.5px solid rgb(255, 168, 54)!important;
+  background-color: rgb(255, 168, 54)!important;
+  color: white !important;
+}
+
+.row {
+  height: 30vh;
+  margin-bottom: 5vh;
+}
+
+.box {
+  height: 100%;
+}
+
+

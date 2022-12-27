@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="tugas2.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#hide").click(function(){
+    $("p").hide(1000);
+  });
+  $("#show").click(function(){
+    $("p").show(1000);
+  });
+  $("#toggle").click(function(){
+    $("#saffa").fadeToggle("slow");
+  });
+  $("#zoomin").click(function(){
+    $("#gambar").animate({
+      left: '250px',
+      height: '+=50px',
+      width: '+=50px'
+    });
+  });
+  $("#zoomout").click(function(){
+    $("#gambar").animate({
+      left: '250px',
+      height: '-=50px',
+      width: '-=50px'
+    });
+  });
+});
+</script>
+</head>
+<body>
+
+<h1 class="hideshow">Jquery Hide and Show Effect</h1>
+
+<p>Tekan "Hide" agar tulisan hilang, Tekan "Show" agar tulisan muncul kembali</p>
+
+<button id="hide">Hide</button>
+<button id="show">Show</button>
+
+<h1>Jquery Fade In and Out Effect</h1>
+
+<p id="saffa">Tekan "Toggle" untuk melihat effect Jquery</p>
+<button id="toggle">Toggle</button>
+
+<h1>Jquery Animate Effect</h1>
+
+<img src="pngwing.com.png" alt="gambar" id="gambar" style="width: 200px; height:auto; margin-bottom: 10px;">
+<br>
+<button id="zoomin">Zoom In</button>
+<button id="zoomout">Zoom Out</button>
+
+</body>
+</html>
